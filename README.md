@@ -1,2 +1,3 @@
-# wheel_of_time
+# wheel-of-time
+
 Wheel of Time CCG
