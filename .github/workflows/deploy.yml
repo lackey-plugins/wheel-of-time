@@ -18,13 +18,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: plugin
-          TARGET_FOLDER: plugin
-
-      - name: Deploy Images 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: images
-          TARGET_FOLDER: images
+          FOLDER: .
