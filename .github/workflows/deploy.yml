@@ -19,6 +19,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: plugin
+          TARGET_FOLDER: plugin
           SINGLE_COMMIT: true
           CLEAN: true
 
@@ -28,5 +29,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: images
+          TARGET_FOLDER: images
           SINGLE_COMMIT: true
           CLEAN: true
