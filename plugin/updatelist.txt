@@ -3,11 +3,11 @@ wheel-of-time	05-11-20
 plugins/wheel-of-time/plugininfo.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/plugininfo.txt	-1
 
 plugins/wheel-of-time/setlist.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/setlist.txt	-1
-plugins/wheel-of-time/sets/premier.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/premier.txt	-1
-plugins/wheel-of-time/sets/dark_prophecies.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/dark_prophecies.txt	-1
-plugins/wheel-of-time/sets/children_of_the_dragon.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/children_of_the_dragon.txt	-1
-plugins/wheel-of-time/sets/cycles.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/cycles.txt	-1
-plugins/wheel-of-time/sets/promo.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/promo.txt	-1
+plugins/wheel-of-time/sets/premier.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/premier.tsv	-1
+plugins/wheel-of-time/sets/dark_prophecies.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/dark_prophecies.tsv	-1
+plugins/wheel-of-time/sets/children_of_the_dragon.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/children_of_the_dragon.tsv	-1
+plugins/wheel-of-time/sets/cycles.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/cycles.tsv	-1
+plugins/wheel-of-time/sets/promo.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/promo.tsv	-1
 
 plugins/wheel-of-time/bot.jpg	https://lackey-plugins.github.io/wheel-of-time/images/general/bot.jpg	-1
 plugins/wheel-of-time/sets/setimages/general/spawned.jpg	https://lackey-plugins.github.io/wheel-of-time/images/144/spawned.jpg	-1
