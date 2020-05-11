@@ -91,7 +91,7 @@ premier/further_goals.jpg https://lackey-plugins.github.io/wheel-of-time/images/
 premier/future_returns.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/premier/future_returns.jpg
 premier/gaining_an_advantage.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/premier/gaining_an_advantage.jpg
 premier/galldrian_su_riatin_rie.jpg https://lackey-plugins.github.io/wheel-of-time/images/144/premier/galldrian_su_riatin_rie.jpg
-premier/gareth_bryne.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/premier/gareth_bryne.jpg
+premier/gareth_byrne.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/premier/gareth_byrne.jpg
 premier/gateway.jpg https://lackey-plugins.github.io/wheel-of-time/images/144/premier/gateway.jpg
 premier/gather_allies.jpg https://lackey-plugins.github.io/wheel-of-time/images/144/premier/gather_allies.jpg
 premier/gather_support.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/premier/gather_support.jpg
@@ -617,3 +617,4 @@ promo/power_play.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/
 promo/things_yet_to_come.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/promo/things_yet_to_come.jpg
 promo/uncontrolled_rage.jpg https://lackey-plugins.github.io/wheel-of-time/images/144/promo/uncontrolled_rage.jpg
 promo/unravel_the_pattern.jpg https://lackey-plugins.github.io/wheel-of-time/images/144/promo/unravel_the_pattern.jpg
+promo/insane_designer.jpg https://lackey-plugins.github.io/wheel-of-time/images/144/promo/insane_designer.jpg
