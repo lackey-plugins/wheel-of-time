@@ -353,6 +353,7 @@ dark_prophecies/incendiary_strike.jpg https://lackey-plugins.github.io/wheel-of-
 dark_prophecies/invasion.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/dark_prophecies/invasion.jpg
 dark_prophecies/ishamael.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/dark_prophecies/ishamael.jpg
 dark_prophecies/jaret_byar.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/dark_prophecies/jaret_byar.jpg
+dark_prophecies/jarette_byar.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/dark_prophecies/jarette_byar.jpg
 dark_prophecies/kin_tovere.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/dark_prophecies/kin_tovere.jpg
 dark_prophecies/king_mattin_stepaneos.jpg https://lackey-plugins.github.io/wheel-of-time/images/144/dark_prophecies/king_mattin_stepaneos.jpg
 dark_prophecies/lady_selande.jpg  https://lackey-plugins.github.io/wheel-of-time/images/144/dark_prophecies/lady_selande.jpg
