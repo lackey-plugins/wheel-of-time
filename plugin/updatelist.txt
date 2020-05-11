@@ -1,14 +1,20 @@
 wheel-of-time	05-11-20
+
 plugins/wheel-of-time/plugininfo.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/plugininfo.txt	151604
+
 plugins/wheel-of-time/setlist.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/setlist.txt	13301
 plugins/wheel-of-time/sets/Premier.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/Premier.txt	6853713
 plugins/wheel-of-time/sets/DarkProphecies.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/DarkProphecies.txt	4458586
 plugins/wheel-of-time/sets/ChildrenOfTheDragon.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/ChildrenOfTheDragon.txt	5236063
 plugins/wheel-of-time/sets/Cycles.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/Cycles.txt	250853
 plugins/wheel-of-time/sets/Promo.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/Promo.txt	222843
+
 plugins/wheel-of-time/bot.jpg	https://lackey-plugins.github.io/wheel-of-time/images/high/bot.jpg	1325
 plugins/wheel-of-time/sets/setimages/general/spawned.jpg	https://lackey-plugins.github.io/wheel-of-time/images/high/general/spawned.jpg	-6065
 plugins/wheel-of-time/sets/setimages/general/cardback.jpg	https://lackey-plugins.github.io/wheel-of-time/images/high/general/cardback.jpg	-58586
+
 plugins/wheel-of-time/rules/WOT_Rules_2-0.pdf	https://lackey-plugins.github.io/wheel-of-time/plugin/rules/WOT_Rules_2-0.pdf	10500831
+
+
 CardGeneralURLs:
 https://lackey-plugins.github.io/wheel-of-time/images/high/	
