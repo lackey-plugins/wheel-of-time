@@ -9,7 +9,7 @@ plugins/wheel-of-time/sets/ChildrenOfTheDragon.txt	https://lackey-plugins.github
 plugins/wheel-of-time/sets/Cycles.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/Cycles.txt	250853
 plugins/wheel-of-time/sets/Promo.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/Promo.txt	222843
 
-plugins/wheel-of-time/bot.jpg	https://lackey-plugins.github.io/wheel-of-time/images/high/bot.jpg	1325
+plugins/wheel-of-time/bot.jpg	https://lackey-plugins.github.io/wheel-of-time/images/high/general/bot.jpg	1325
 plugins/wheel-of-time/sets/setimages/general/spawned.jpg	https://lackey-plugins.github.io/wheel-of-time/images/high/general/spawned.jpg	-6065
 plugins/wheel-of-time/sets/setimages/general/cardback.jpg	https://lackey-plugins.github.io/wheel-of-time/images/high/general/cardback.jpg	-58586
 
