@@ -1,4 +1,4 @@
-wheel-of-time	11-05-20
+wheel-of-time	05-11-20
 plugins/wheel-of-time/plugininfo.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/plugininfo.txt	151604
 plugins/wheel-of-time/setlist.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/setlist.txt	13301
 plugins/wheel-of-time/sets/Premier.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/Premier.txt	6853713
