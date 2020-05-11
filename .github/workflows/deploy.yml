@@ -20,8 +20,6 @@ jobs:
           BRANCH: gh-pages
           FOLDER: plugin
           TARGET_FOLDER: plugin
-          SINGLE_COMMIT: true
-          CLEAN: true
 
       - name: Deploy Images 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
@@ -30,5 +28,3 @@ jobs:
           BRANCH: gh-pages
           FOLDER: images
           TARGET_FOLDER: images
-          SINGLE_COMMIT: true
-          CLEAN: true
