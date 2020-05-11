@@ -18,5 +18,6 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
+          FOLDER: /
           SINGLE_COMMIT: true
           CLEAN: true
