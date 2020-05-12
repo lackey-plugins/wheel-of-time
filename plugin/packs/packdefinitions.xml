@@ -44,72 +44,73 @@
      <packdoubles>yes</packdoubles>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>premier</packcommoncrit>
      <chance>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>a_second_chance</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>andor_cavalry</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>andor_infantry</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>bodyguards</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>commander</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>confrontation</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>debt_of_honor</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>decisive_tactics</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>dense_forest</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>egwene_al_vere</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>elayne_trakand</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>fireball</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>gaining_an_advantage</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>gather_allies</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>healing</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>heroic_efforts</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lady_aemlyn</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lady_arathelle</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lady_ellorien</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lan_mandragoran</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>light_cavalry</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_pelivar</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>mat_cauthon</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>moiraine_sedai</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>perrin_aybara</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>personal_growth</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>plots</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>rand_al_thor_i</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>seasoned_warrior</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>similar_ideals</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>spying</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>stymied</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>testing_fate</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>the_tide_of_battle</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>unexpected_ally</data></crit></kind>
-                    <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>a_second_chance</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>andor_infantry</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>bodyguards</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>commander</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>confrontation</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>darkfriend</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>decisive_tactics</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>dense_forest</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>fade</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>fireball</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>healing</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>human_rabble</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lady_elenia</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_gaebril</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_jarid</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_lir</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_nasin</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>overrun</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>padan_fain</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>personal_growth</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>plots</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>rahvin</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>rampage</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>secondary_efforts</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>spying</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>stymied</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>testing_fate</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>the_tide_of_battle</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>trolloc</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>trolloc_footmen</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>unexpected_ally</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>A Second Chance</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Andor Cavalry</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Andor Infantry</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Bodyguards</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Commander</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Confrontation</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Debt Of Honor</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Decisive Tactics</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Dense Forest</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Egwene al'Vere</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Elayne Trakand</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Fireball</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Gaining An Advantage</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Gather Allies</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Healing</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Heroic Efforts</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lady Aemlyn</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lady Arathelle</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lady Ellorien</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lan Mandragoran</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Light Cavalry</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lord Pelivar</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Mat Cauthon (I)</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Moiraine Sedai</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Perrin Aybara (I)</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Personal Growth</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Plots</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Rand al'Thor (I)</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Seasoned Warrior</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Similar Ideals</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Spying</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Stymied</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Testing Fate</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>The Tide Of Battle</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Unexpected Ally</data></crit></kind>
+          
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>A Second Chance</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Andor Infantry</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Bodyguards</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Commander</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Confrontation</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Darkfriend</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Decisive Tactics</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Dense Forest</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Fade</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Fireball</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Healing</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Human Rabble</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lady Elenia</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lord Gaebril</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lord Jarid</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lord Lir</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lord Nasin</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Overrun</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Padan Fain</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Personal Growth</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Plots</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Rahvin (I)</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Rampage</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Secondary Efforts</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Spying</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Stymied</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Testing Fate</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>The Tide Of Battle</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Trolloc</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Trolloc Footmen</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Unexpected Ally</data></crit></kind>
      </chance>
 </pack>
 
@@ -120,41 +121,41 @@
      <packdoubles>yes</packdoubles>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>premier</packcommoncrit>
      <chance>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>a_second_chance</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>andor_cavalry</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>andor_infantry</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>bodyguards</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>commander</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>confrontation</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>debt_of_honor</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>decisive_tactics</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>dense_forest</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>egwene_al_vere</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>elayne_trakand</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>fireball</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>gaining_an_advantage</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>gather_allies</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>healing</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>heroic_efforts</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lady_aemlyn</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lady_arathelle</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lady_ellorien</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lan_mandragoran</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>light_cavalry</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_pelivar</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>mat_cauthon</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>moiraine_sedai</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>perrin_aybara</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>personal_growth</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>plots</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>rand_al_thor_i</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>seasoned_warrior</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>similar_ideals</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>spying</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>stymied</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>testing_fate</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>the_tide_of_battle</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>unexpected_ally</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>A Second Chance</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Andor Cavalry</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Andor Infantry</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Bodyguards</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Commander</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Confrontation</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Debt Of Honor</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Decisive Tactics</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Dense Forest</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Egwene al'Vere</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Elayne Trakand</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Fireball</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Gaining An Advantage</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Gather Allies</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Healing</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Heroic Efforts</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lady Aemlyn</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lady Arathelle</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lady Ellorien</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lan Mandragoran</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Light Cavalry</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lord Pelivar</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Mat Cauthon (I)</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Moiraine Sedai</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Perrin Aybara (I)</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Personal Growth</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Plots</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Rand al'Thor (I)</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Seasoned Warrior</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Similar Ideals</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Spying</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Stymied</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Testing Fate</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>The Tide Of Battle</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Unexpected Ally</data></crit></kind>
      </chance>
 </pack>
 
@@ -164,37 +165,39 @@
      <packkind>Starter</packkind>
      <packdoubles>yes</packdoubles>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>premier</data></packcommoncrit>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>a_second_chance</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>andor_infantry</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>bodyguards</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>commander</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>confrontation</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>darkfriend</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>decisive_tactics</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>dense_forest</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>fade</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>fireball</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>healing</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>human_rabble</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lady_elenia</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_gaebril</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_jarid</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_lir</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_nasin</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>overrun</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>padan_fain</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>personal_growth</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>plots</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>rahvin</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>rampage</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>secondary_efforts</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>spying</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>stymied</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>testing_fate</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>the_tide_of_battle</data></crit></kind>
-          <kind><qty>2</qty><crit><field>ImageFile</field><eval>IS</eval><data>trolloc</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>trolloc_footmen</data></crit></kind>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>unexpected_ally</data></crit></kind>
+     <chance>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>A Second Chance</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Andor Infantry</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Bodyguards</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Commander</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Confrontation</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Darkfriend</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Decisive Tactics</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Dense Forest</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Fade</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Fireball</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Healing</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Human Rabble</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lady Elenia</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lord Gaebril</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lord Jarid</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lord Lir</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Lord Nasin</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Overrun</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Padan Fain</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Personal Growth</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Plots</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Rahvin (I)</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Rampage</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Secondary Efforts</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Spying</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Stymied</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Testing Fate</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>The Tide Of Battle</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Name</field><eval>IS</eval><data>Trolloc</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Trolloc Footmen</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Unexpected Ally</data></crit></kind>
+     </chance>
 </pack>
 
 <pack><packtitle>Starter Display Box</packtitle>
@@ -204,72 +207,73 @@
      <packdoubles>yes</packdoubles>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>premier</packcommoncrit>
      <chance>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>a_second_chance</data></crit></kind>
-          <kind><qty>9</qty><crit><field>ImageFile</field><eval>IS</eval><data>andor_cavalry</data></crit></kind>
-          <kind><qty>9</qty><crit><field>ImageFile</field><eval>IS</eval><data>andor_infantry</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>bodyguards</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>commander</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>confrontation</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>debt_of_honor</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>decisive_tactics</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>dense_forest</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>egwene_al_vere</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>elayne_trakand</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>fireball</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>gaining_an_advantage</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>gather_allies</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>healing</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>heroic_efforts</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>lady_aemlyn</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>lady_arathelle</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>lady_ellorien</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>lan_mandragoran</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>light_cavalry</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_pelivar</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>mat_cauthon</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>moiraine_sedai</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>perrin_aybara</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>personal_growth</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>plots</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>rand_al_thor_i</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>seasoned_warrior</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>similar_ideals</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>spying</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>stymied</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>testing_fate</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>the_tide_of_battle</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>unexpected_ally</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>a_second_chance</data></crit></kind>
-          <kind><qty>9</qty><crit><field>ImageFile</field><eval>IS</eval><data>andor_infantry</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>bodyguards</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>commander</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>confrontation</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>darkfriend</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>decisive_tactics</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>dense_forest</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>fade</data></crit></kind>
-          <kind><qty>9</qty><crit><field>ImageFile</field><eval>IS</eval><data>fireball</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>healing</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>human_rabble</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>lady_elenia</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_gaebril</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_jarid</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_lir</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>lord_nasin</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>overrun</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>padan_fain</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>personal_growth</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>plots</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>rahvin</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>rampage</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>secondary_efforts</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>spying</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>stymied</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>testing_fate</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>the_tide_of_battle</data></crit></kind>
-          <kind><qty>6</qty><crit><field>ImageFile</field><eval>IS</eval><data>trolloc</data></crit></kind>
-          <kind><qty>9</qty><crit><field>ImageFile</field><eval>IS</eval><data>trolloc_footmen</data></crit></kind>
-          <kind><qty>3</qty><crit><field>ImageFile</field><eval>IS</eval><data>unexpected_ally</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>A Second Chance</data></crit></kind>
+          <kind><qty>9</qty><crit><field>Name</field><eval>IS</eval><data>Andor Cavalry</data></crit></kind>
+          <kind><qty>9</qty><crit><field>Name</field><eval>IS</eval><data>Andor Infantry</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Bodyguards</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Commander</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Confrontation</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Debt Of Honor</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Decisive Tactics</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Dense Forest</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Egwene al'Vere</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Elayne Trakand</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Fireball</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Gaining An Advantage</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Gather Allies</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Healing</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Heroic Efforts</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Lady Aemlyn</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Lady Arathelle</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Lady Ellorien</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Lan Mandragoran</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Light Cavalry</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Lord Pelivar</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Mat Cauthon (I)</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Moiraine Sedai</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Perrin Aybara (I)</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Personal Growth</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Plots</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Rand al'Thor (I)</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Seasoned Warrior</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Similar Ideals</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Spying</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Stymied</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Testing Fate</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>The Tide Of Battle</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Unexpected Ally</data></crit></kind>
+          
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>A Second Chance</data></crit></kind>
+          <kind><qty>9</qty><crit><field>Name</field><eval>IS</eval><data>Andor Infantry</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Bodyguards</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Commander</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Confrontation</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Darkfriend</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Decisive Tactics</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Dense Forest</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Fade</data></crit></kind>
+          <kind><qty>9</qty><crit><field>Name</field><eval>IS</eval><data>Fireball</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Healing</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Human Rabble</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Lady Elenia</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Lord Gaebril</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Lord Jarid</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Lord Lir</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Lord Nasin</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Overrun</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Padan Fain</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Personal Growth</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Plots</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Rahvin (I)</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Rampage</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Secondary Efforts</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Spying</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Stymied</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Testing Fate</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>The Tide Of Battle</data></crit></kind>
+          <kind><qty>6</qty><crit><field>Name</field><eval>IS</eval><data>Trolloc</data></crit></kind>
+          <kind><qty>9</qty><crit><field>Name</field><eval>IS</eval><data>Trolloc Footmen</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Name</field><eval>IS</eval><data>Unexpected Ally</data></crit></kind>
      </chance>
 </pack>
 
@@ -279,36 +283,36 @@
      <packkind>Booster</packkind>
      <packdoubles>yes</packdoubles>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>premier</data></packcommoncrit>
-          <chance>
-               <prob>8.25</prob>
-               <kind><qty>3</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
-               <kind><qty>4</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
-               <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
-          </chance>
-          <chance>
-               <prob>16.5</prob>
-               <kind><qty>4</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
-               <kind><qty>3</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
-               <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
-          </chance>
-          <chance>
-               <prob>33</prob>
-               <kind><qty>5</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
-               <kind><qty>2</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
-               <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
-          </chance>
-          <chance>
-               <prob>24.75</prob>
-               <kind><qty>6</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
-               <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
-               <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
-          </chance>
-          <chance>
-               <prob>16.5</prob>
-               <kind><qty>7</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
-               <kind><qty>0</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
-               <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
-          </chance>
+     <chance>
+          <prob>8</prob>
+          <kind><qty>3</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
+          <kind><qty>4</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
+     </chance>
+     <chance>
+          <prob>16</prob>
+          <kind><qty>4</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
+          <kind><qty>3</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
+     </chance>
+     <chance>
+          <prob>33</prob>
+          <kind><qty>5</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
+          <kind><qty>2</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
+     </chance>
+     <chance>
+          <prob>25</prob>
+          <kind><qty>6</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
+     </chance>
+     <chance>
+          <prob>17</prob>
+          <kind><qty>7</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
+          <kind><qty>0</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
+     </chance>
 </pack>
 
 <pack><packtitle>Premier Booster Display Box</packtitle>
@@ -316,6 +320,7 @@
      <packformat>standard</packformat>
      <packkind>Booster Box</packkind>
      <packdoubles>yes</packdoubles>
+     <chance>
           <kind>
                <qty>126</qty>
                <crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit>
@@ -333,9 +338,10 @@
           </kind>
           <kind>
                <qty>1</qty>
-               <crit><field>ImageFile</field><eval>IS</eval><data>battle_fury</data></crit>
+               <crit><field>Name</field><eval>IS</eval><data>Battle Fury</data></crit>
                <crit><field>Set</field><eval>IS</eval><data>promo</data></crit>
           </kind>
+     </chance>
 </pack>
 
 <!-- Dark Prophecies -->
@@ -354,9 +360,11 @@
      <packkind>Booster</packkind>
      <packdoubles>yes</packdoubles>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>dark_prophecies</data></packcommoncrit>
+     <chance>
           <kind><qty>5</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
           <kind><qty>3</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
-          <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Rarity</field><eval>CONTAINS</eval><data>Rare</data></crit></kind>
+     </chance>
 </pack>
 
 <pack><packtitle>Dark Prophecies Booster Display Box</packtitle>
@@ -365,9 +373,11 @@
      <packkind>Booster Box</packkind>
      <packdoubles>yes</packdoubles>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>dark_prophecies</data></packcommoncrit>
+     <chance>
           <kind><qty>120</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
           <kind><qty>72</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
-          <kind><qty>24</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
+          <kind><qty>24</qty><crit><field>Rarity</field><eval>CONTAINS</eval><data>Rare</data></crit></kind>
+     </chance>
 </pack>
 
 <!-- Children of the Dragon -->
@@ -386,9 +396,11 @@
      <packkind>Booster</packkind>
      <packdoubles>yes</packdoubles>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>children_of_the_dragon</data></packcommoncrit>
+     <chance>
           <kind><qty>5</qty><crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit></kind>
           <kind><qty>3</qty><crit><field>Rarity</field><eval>IS</eval><data>Uncommon</data></crit></kind>
-          <kind><qty>1</qty><crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit></kind>
+          <kind><qty>1</qty><crit><field>Rarity</field><eval>CONTAINS</eval><data>Rare</data></crit></kind>
+     </chance>
 </pack>
 
 <pack><packtitle>Children of the Dragon Booster Display Box</packtitle>
@@ -396,6 +408,7 @@
      <packformat>standard</packformat>
      <packkind>Booster Box</packkind>
      <packdoubles>yes</packdoubles>
+     <chance>
           <kind>
                <qty>120</qty>
                <crit><field>Rarity</field><eval>IS</eval><data>Common</data></crit>
@@ -409,13 +422,14 @@
           <kind>
                <qty>24</qty>
                <crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit>
-               <crit><field>Set</field><eval>IS</eval><data>children_of_the_dragon</data></crit>
+               <crit><field>Set</field><eval>CONTAINS</eval><data>children_of_the_dragon</data></crit>
           </kind>
           <kind>
                <qty>1</qty>
-               <crit><field>ImageFile</field><eval>IS</eval><data>moment_of_transtion</data></crit>
+               <crit><field>Name</field><eval>IS</eval><data>Moment of Transition</data></crit>
                <crit><field>Set</field><eval>IS</eval><data>promo</data></crit>
           </kind>
+     </chance>
 </pack>
 
 <!-- Cycles -->
@@ -432,41 +446,44 @@
      <packimage>cycles_complete</packimage>
      <packformat>standard</packformat>
      <packkind>Promo</packkind>
+     <chance>
           <kind>
                <qty>1</qty>
-               <crit><field>ImageFile</field><eval>IS</eval><data>demandred</data></crit>
-               <crit><field>Set</field><eval>IS</eval><data>cycles</data></crit>
+               <crit><field>Name</field><eval>IS</eval><data>Demandred</data></crit>
+               <crit><field>Set</field><eval>IS</eval><data>Cycles</data></crit>
           </kind>
           <kind>
                <qty>1</qty>
-               <crit><field>ImageFile</field><eval>IS</eval><data>mat_cauthon</data></crit>
-               <crit><field>Set</field><eval>IS</eval><data>cycles</data></crit>
+               <crit><field>Name</field><eval>IS</eval><data>Mat Cauthon (II)</data></crit>
+               <crit><field>Set</field><eval>IS</eval><data>Cycles</data></crit>
           </kind>
           <kind>
                <qty>1</qty>
-               <crit><field>ImageFile</field><eval>IS</eval><data>perrin_aybara</data></crit>
-               <crit><field>Set</field><eval>IS</eval><data>cycles</data></crit>
+               <crit><field>Name</field><eval>IS</eval><data>Perrin Aybara (II)</data></crit>
+               <crit><field>Set</field><eval>IS</eval><data>Cycles</data></crit>
           </kind>
           <kind>
                <qty>1</qty>
-               <crit><field>ImageFile</field><eval>IS</eval><data>shaidar_haran</data></crit>
-               <crit><field>Set</field><eval>IS</eval><data>cycles</data></crit>
+               <crit><field>Name</field><eval>IS</eval><data>Shaidar Haran (II)</data></crit>
+               <crit><field>Set</field><eval>IS</eval><data>Cycles</data></crit>
           </kind>
           <kind>
                <qty>1</qty>
-               <crit><field>ImageFile</field><eval>IS</eval><data>power_play</data></crit>
+               <crit><field>Name</field><eval>IS</eval><data>Power Play</data></crit>
                <crit><field>Set</field><eval>IS</eval><data>promo</data></crit>
           </kind>
+     </chance>
 </pack>
 
 <pack><packtitle>Cycles - Demandred Pack</packtitle>
      <packimage>cycles_demandred_pack</packimage>
      <packformat>standard</packformat>
      <packkind>Promo</packkind>
+     <chance>
           <kind>
                <qty>1</qty>
-               <crit><field>ImageFile</field><eval>IS</eval><data>demandred</data></crit>
-               <crit><field>Set</field><eval>IS</eval><data>cycles</data></crit>
+               <crit><field>Name</field><eval>IS</eval><data>Demandred</data></crit>
+               <crit><field>Set</field><eval>IS</eval><data>Cycles</data></crit>
           </kind>
           <kind>
                <qty>15</qty>
@@ -480,19 +497,21 @@
           </kind>
           <kind>
                <qty>3</qty>
-               <crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit>
+               <crit><field>Rarity</field><eval>CONTAINS</eval><data>Rare</data></crit>
                <crit><field>Set</field><eval>IS</eval><data>children_of_the_dragon</data></crit>
           </kind>
+     </chance>
 </pack>
 
 <pack><packtitle>Cycles - Mat Cauthon Pack</packtitle>
      <packimage>cycles_mat_cauthon_pack</packimage>
      <packformat>standard</packformat>
      <packkind>Promo</packkind>
+     <chance>
           <kind>
                <qty>1</qty>
-               <crit><field>ImageFile</field><eval>IS</eval><data>mat_cauthon</data></crit>
-               <crit><field>Set</field><eval>IS</eval><data>cycles</data></crit>
+               <crit><field>Name</field><eval>IS</eval><data>Mat Cauthon (II)</data></crit>
+               <crit><field>Set</field><eval>IS</eval><data>Cycles</data></crit>
           </kind>
           <kind>
                <qty>15</qty>
@@ -506,19 +525,21 @@
           </kind>
           <kind>
                <qty>3</qty>
-               <crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit>
+               <crit><field>Rarity</field><eval>CONTAINS</eval><data>Rare</data></crit>
                <crit><field>Set</field><eval>IS</eval><data>children_of_the_dragon</data></crit>
           </kind>
+     </chance>
 </pack>
 
 <pack><packtitle>Cycles - Perrin Aybara Pack</packtitle>
      <packimage>cycles_perrin_aybara_pack</packimage>
      <packformat>standard</packformat>
      <packkind>Promo</packkind>
+     <chance>
           <kind>
                <qty>1</qty>
-               <crit><field>ImageFile</field><eval>IS</eval><data>perrin_aybara</data></crit>
-               <crit><field>Set</field><eval>IS</eval><data>cycles</data></crit>
+               <crit><field>Name</field><eval>IS</eval><data>Perrin Aybara (II)</data></crit>
+               <crit><field>Set</field><eval>IS</eval><data>Cycles</data></crit>
           </kind>
           <kind>
                <qty>15</qty>
@@ -532,19 +553,21 @@
           </kind>
           <kind>
                <qty>3</qty>
-               <crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit>
+               <crit><field>Rarity</field><eval>CONTAINS</eval><data>Rare</data></crit>
                <crit><field>Set</field><eval>IS</eval><data>children_of_the_dragon</data></crit>
           </kind>
+     </chance>
 </pack>
 
 <pack><packtitle>Cycles - Shaidar Haran Pack</packtitle>
      <packimage>cycles_shaidar_haran_pack</packimage>
      <packformat>standard</packformat>
      <packkind>Promo</packkind>
+     <chance>
           <kind>
                <qty>1</qty>
-               <crit><field>ImageFile</field><eval>IS</eval><data>shaidar_haran</data></crit>
-               <crit><field>Set</field><eval>IS</eval><data>cycles</data></crit>
+               <crit><field>Name</field><eval>IS</eval><data>Shaidar Haran (II)</data></crit>
+               <crit><field>Set</field><eval>IS</eval><data>Cycles</data></crit>
           </kind>
           <kind>
                <qty>15</qty>
@@ -558,9 +581,10 @@
           </kind>
           <kind>
                <qty>3</qty>
-               <crit><field>Rarity</field><eval>IS</eval><data>Rare</data></crit>
+               <crit><field>Rarity</field><eval>CONTAINS</eval><data>Rare</data></crit>
                <crit><field>Set</field><eval>IS</eval><data>children_of_the_dragon</data></crit>
           </kind>
+     </chance>
 </pack>
 
 <!-- Magazines -->
@@ -570,7 +594,9 @@
      <packformat>standard</packformat>
      <packkind>Promo</packkind>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>promo</data></packcommoncrit>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>night_raid</data></crit></kind>
+     <chance>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Night Raid</data></crit></kind>
+     </chance>
 </pack>
 
 <pack><packtitle>Inquest Magazine, December 1999</packtitle>
@@ -578,7 +604,9 @@
      <packformat>standard</packformat>
      <packkind>Promo</packkind>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>promo</data></packcommoncrit>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>filled_with_power</data></crit></kind>
+     <chance>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Filled With Power</data></crit></kind>
+     </chance>
 </pack>
 
 <pack><packtitle>Inquest Magazine, November 2000</packtitle>
@@ -586,17 +614,21 @@
      <packformat>standard</packformat>
      <packkind>Promo</packkind>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>promo</data></packcommoncrit>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>pitched_battle</data></crit></kind>
+     <chance>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Pitched Battle</data></crit></kind>
+     </chance>
 </pack>
 
 <!-- Events -->
 
-<pack><packtitle>Official Wheel of Time demo event</packtitle>
+<pack><packtitle>Official Wheel of Time Demo Event</packtitle>
      <packimage>official_wheel_of_time_demo_event</packimage>
      <packformat>standard</packformat>
      <packkind>Promo</packkind>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>promo</data></packcommoncrit>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>unravel_the_pattern</data></crit></kind>
+     <chance>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Unravel The Pattern</data></crit></kind>
+     </chance>
 </pack>
 
 <pack><packtitle>"Aiel Wars" Tournament Prize</packtitle>
@@ -604,7 +636,9 @@
      <packformat>standard</packformat>
      <packkind>Promo</packkind>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>promo</data></packcommoncrit>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>uncontrolled_rage</data></crit></kind>
+     <chance>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Uncontrolled Rage</data></crit></kind>
+     </chance>
 </pack>
 
 <pack><packtitle>Tournament Prize</packtitle>
@@ -612,7 +646,9 @@
      <packformat>standard</packformat>
      <packkind>Promo</packkind>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>promo</data></packcommoncrit>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>things_yet_to_come</data></crit></kind>
+     <chance>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Things Yet To Come</data></crit></kind>
+     </chance>
 </pack>
 
 <!-- Unpublished -->
@@ -622,7 +658,9 @@
      <packformat>unpublished</packformat>
      <packkind>Promo</packkind>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>promo</data></packcommoncrit>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>power_play</data></crit></kind>
+     <chance>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Power Play</data></crit></kind>
+     </chance>
 </pack>
 
 <pack><packtitle>The White Tower Booster Box</packtitle>
@@ -630,7 +668,9 @@
      <packformat>unpublished</packformat>
      <packkind>Promo</packkind>
      <packcommoncrit><field>Set</field><eval>IS</eval><data>promo</data></packcommoncrit>
-          <kind><qty>1</qty><crit><field>ImageFile</field><eval>IS</eval><data>power_play</data></crit></kind>
+     <chance>
+          <kind><qty>1</qty><crit><field>Name</field><eval>IS</eval><data>Power Play</data></crit></kind>
+     </chance>
 </pack>
 
 </packdefinitions>
