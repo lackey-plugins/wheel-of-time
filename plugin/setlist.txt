@@ -4,6 +4,11 @@ dark_prophecies.txt
 children_of_the_dragon.txt
 cycles.txt
 promo.txt
+second_edition.txt
+the_white_tower.txt
+the_crystal_throne.txt
+the_borderlands.txt
+the_world_of_dreams.txt
 
 1
 Standard
@@ -13,3 +18,12 @@ dark_prophecies
 children_of_the_dragon
 cycles
 promo
+
+1
+Unpublished
+5
+second_edition
+the_white_tower
+the_crystal_throne
+the_borderlands
+the_world_of_dreams
