@@ -10,7 +10,7 @@ plugins/wheel-of-time/sets/cycles.txt	https://lackey-plugins.github.io/wheel-of-
 plugins/wheel-of-time/sets/promo.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/sets/promo.tsv	-1
 
 plugins/wheel-of-time/packs/packdefinitions.xml	https://lackey-plugins.github.io/wheel-of-time/plugin/packs/packdefinitions.xml	-1
-plugins/wheel-of-time/packs/2_player_starter.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/2_player_starter.jpg	-1
+plugins/wheel-of-time/packs/2_player_starter_set.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/2_player_starter_set.jpg	-1
 plugins/wheel-of-time/packs/dragon_reborn_starter_deck.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/dragon_reborn_starter_deck.jpg	-1
 plugins/wheel-of-time/packs/forsaken_starter_deck.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/forsaken_starter_deck.jpg	-1
 plugins/wheel-of-time/packs/starter_display_box.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/starter_display_box.jpg	-1
