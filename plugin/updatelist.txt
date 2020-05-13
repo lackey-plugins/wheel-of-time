@@ -36,7 +36,7 @@ plugins/wheel-of-time/bot.jpg	https://lackey-plugins.github.io/wheel-of-time/ima
 plugins/wheel-of-time/sets/setimages/general/spawned.jpg	https://lackey-plugins.github.io/wheel-of-time/images/cards/144/spawned.jpg	-1
 plugins/wheel-of-time/sets/setimages/general/cardback.jpg	https://lackey-plugins.github.io/wheel-of-time/images/cards/144/cardback.jpg	-1
 
-plugins/wheel-of-time/documents/WOT_Rules_2-0.pdf	https://lackey-plugins.github.io/wheel-of-time/plugin/documents/WOT_Rules_2-0.pdf	-1
+plugins/wheel-of-time/documents/WOT_Rules_2-0.pdf	https://lackey-plugins.github.io/wheel-of-time/documents/WOT_Rules_2-0.pdf	-1
 
 plugins/wheel-of-time/images_144_urls.txt	https://lackey-plugins.github.io/wheel-of-time/plugin/images_144_urls.txt	-1
 
