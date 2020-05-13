@@ -64,11 +64,13 @@ COLUMN8:"Subtype/Allegiance"	1
 COLUMN9:"Attribute"	1
 COLUMN10:"Politics"	1
 COLUMN11:"Intrigue"	1
-COLUMN12:"One_Power"	1
+COLUMN12:"One Power"	1
 COLUMN13:"Combat"	1
 COLUMN14:"Rarity"	1
 COLUMN15:"Collector"	1
 COLUMN16:"Text"	1
+COLUMN17:"Flavor"	0
+COLUMN18:"Artist"	0
 
 ISYOURFACEDOWNVISIBLE:"yes"
 
