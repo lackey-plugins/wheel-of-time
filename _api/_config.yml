@@ -12,10 +12,10 @@ collections:
     output: true
     sources:
       - sets.tsv
-#    related:
-#      - from_field: id
-#        to_field: set
-#        collection: cards
+    related:
+      - from_field: id
+        to_field: set
+        collection: cards
     id_key: id
     layout: jsonapi
     index: true
