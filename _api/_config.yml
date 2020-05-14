@@ -1,0 +1,70 @@
+title: Wheel of Time
+email: benthicmaw+lackey@gmail.com
+description:
+baseurl: "/"
+url: "https://_lackey-plugins.github.io/wheel-of-time"
+github_username:  lackey-plugins
+
+data_dir: ../data
+
+collections:
+  sets:
+    output: true
+    sources:
+      - sets.tsv
+    related:
+      - from_field: name
+        to_field: set
+        collection: cards
+    id_key: _id
+    layout: jsonapi
+    index: true
+    image_base: https://images.ccgsimulator.com/harry_potter
+  cards:
+    output: true
+    sources:
+      - cards/premier.tsv
+      - cards/dark_prophecies.tsv
+      - cards/children_of_the_dragon.tsv
+      - cards/cycles.tsv
+      - cards/promo.tsv
+    related:
+      - from_field: set
+        to_field: name
+        collection: sets
+    id_key: _id
+    layout: jsonapi
+    index: true
+    image_base: https://images.ccgsimulator.com/harry_potter
+  # decks:
+  #   output: true
+  #   sources: [ decks.csv ]
+  #   related:
+  #     - parse_column:
+  #         multiline: true
+  #         column: main
+  #         regex: ^(?<main.count>[0-9]+)\\t(?<main.name>.*)$
+  #       extra:
+  #         meta:
+  #           zone: main
+  #           count: main.count
+  #       from_field: main.name
+  #       to_field: name
+  #       collection: cards
+  #     - parse_column:
+  #         multiline: true
+  #         column: starting
+  #         regex: ^(?<starting.count>[0-9]+)\\t(?<starting.name>.*)$
+  #       extra:
+  #         meta:
+  #           zone: starting
+  #           count: starting.count
+  #       from_field: starting.name
+  #       to_field: name
+  #       collection: cards
+  #   id_key: _id
+  #   layout: jsonapi
+  #   index: true
+  #   image_base: https://images.ccgsimulator.com/harry_potter
+
+exclude: [README.MD", "data", "documents", "images", "_lackey"]

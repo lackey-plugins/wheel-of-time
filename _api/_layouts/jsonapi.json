@@ -1,0 +1,6 @@
+{
+  "jsonapi": {{ page.jsonapi | jsonify }},
+  "links": {{ page.links | jsonify }},
+  "meta": {{ page.meta | jsonify }},
+  "data": {{ page.data | jsonify }}
+}

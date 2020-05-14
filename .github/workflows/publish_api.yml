@@ -1,0 +1,53 @@
+name: Deploy API
+on:
+  push:
+    branches:
+      - 'master'
+
+defaults:
+  run:
+    shell: bash
+    working-directory: _api
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout️ 🛎
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: true
+
+      - name: Setup Ruby 💎
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+
+      - name: Cache 💾
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Install 🔧
+        run: |
+          gem install bundler
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+
+      - name: Build 🏗
+        run: |
+          bundle exec jekyll pagemaster cards sets
+          bundle exec jekyll build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: _site
+          TARGET_FOLDER: api
+          SINGLE_COMMIT: true
+          CLEAN: true

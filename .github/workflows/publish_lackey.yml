@@ -1,8 +1,13 @@
-name: Deploy
+name: Publish Lackey Plugin
 on:
   push:
     branches:
       - 'master'
+
+defaults:
+  run:
+    shell: bash
+    working-directory: _lackey
 
 jobs:
   build-and-deploy:
@@ -18,4 +23,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: .
+          FOLDER: _site
+          TARGET_FOLDER: lackey
+          SINGLE_COMMIT: true
+          CLEAN: true
