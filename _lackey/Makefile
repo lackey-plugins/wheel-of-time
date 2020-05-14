@@ -10,6 +10,7 @@ jekyll: formats packdefinitions
 	bundle exec jekyll build
 	cp -r _site/* _tmp/
 	cp _tmp/updatelist.txt.md ./
+	cp _tmp/plugininfo.txt ./
 	bundle exec jekyll build
 
 clean:
