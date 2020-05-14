@@ -24,4 +24,4 @@ plugins/{{ site.name }}/sets/setimages/general/cardback.jpg	{{ site.url }}/image
 {% endloop_directory %}
 
 CardGeneralURLs:
-{{ site.url }}/images/cards/144
+{{ site.url }}/images
