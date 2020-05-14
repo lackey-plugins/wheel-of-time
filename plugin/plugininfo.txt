@@ -1,56 +1,279 @@
-PLUGINVERSION:"2.00"
+<plugin>
+	<pluginversion>2.0</pluginversion>
+	<pluginname>wheel-of-time</pluginname>
 
-PLAYERSTAT0:"Pattern"	2
-PLAYERSTAT1:"Neutral Pattern"	0
+	<playerstat>
+		<label>Pattern</label>
+		<initialvalue>2</initialvalue>
+	</playerstat>
+	
+	<playerstat>
+		<label>Neutral Pattern</label>
+		<initialvalue>2</initialvalue>
+	</playerstat>
 
-SUPERZONE0:"Deck"	0	0
-SUPERZONE1:"Starting Hand"	1	0
-SUPERZONE2:"Aside"	1	0
+	<deckzone>
+		<label>Deck</label>
+		<shuffle>yes</shuffle>
+		<gamezonetoloadto>Deck</gamezonetoloadto>
+	</deckzone>
+	
+	<deckzone>
+		<label>Starting Hand</label>
+		<gamezonetoloadto>Hand</gamezonetoloadto>
+	</deckzone>
 
-ZONE0:"Hand"	1	0
-ZONE1:"Deck"	0	0
-ZONE2:"Discard"	1	1
-ZONE3:"Killed"	1	1
-ZONE4:"Removed"	1	1
+	<gamezone>
+		<label>Hand</label>
+		<visibletoowner>yes</visibletoowner>
+		<visibletoothers>no</visibletoothers>
+	</gamezone>
 
-PHASE0:"Ready Round"
-PHASE1:"Challenge Round"
-PHASE2:"Action Round"
-PHASE3:"Resolution Round"
-PHASE4:"Draw Round"
+	<gamezone>
+		<label>Deck</label>
+		<visibletoowner>no</visibletoowner>
+		<visibletoothers>no</visibletoothers>
+	</gamezone>
 
-GENERALFUNCTION0:"DRAWCARD"	"Draw"	1
-GENERALFUNCTION1:"DRAWCARDTOTABLE"	"Draw Up"	0
-GENERALFUNCTION2:"ALLYOURCARDSMAKERIGHT0DEGREES"	"Untap All"	1
-GENERALFUNCTION3:"ROLLD20"	"Roll D20"	0
-GENERALFUNCTION4:"ROLLD6"	"Roll D6"	0
-GENERALFUNCTION5:"FLIPCOIN"	"Flip Coin"	0
-GENERALFUNCTION6:"SPAWNCARD"	"Spawn Card"	0
-GENERALFUNCTION7:"NEXTTURN"	"Next Turn"	0
-GENERALFUNCTION8:"PREVIOUSTURN"	"Previous Turn"	0
-GENERALFUNCTION9:"PREVIOUSPHASE"	"Previous Phase"	0
-GENERALFUNCTION10:"NEXTPHASE"	"Next Phase"	0
+	<gamezone>
+		<label>Discard</label>
+		<visibletoowner>yes</visibletoowner>
+		<visibletoothers>yes</visibletoothers>
+	</gamezone>
 
-CARDFUNCTION0:"MAKERIGHT0DEGREES"	"Untap"	1
-CARDFUNCTION1:"MAKERIGHT90DEGREES"	"Tap"	1
-CARDFUNCTION2:"ADDCOUNTERGREEN"	"Pol.+1"	1	.15	.78
-CARDFUNCTION3:"REMOVECOUNTERGREEN"	"Pol.-1"	1
-CARDFUNCTION4:"ADDCOUNTERBLUE"	"Int.+1"	1	.15	.70
-CARDFUNCTION5:"REMOVECOUNTERBLUE"	"Int.-1"	1
-CARDFUNCTION6:"ADDCOUNTERWHITE"	"OP+1"	1	.15	.62
-CARDFUNCTION7:"REMOVECOUNTERWHITE"	"OP-1"	1
-CARDFUNCTION8:"ADDCOUNTERBLACK"	"Com.+1"	1	.15	.54
-CARDFUNCTION9:"REMOVECOUNTERBLACK"	"Com.-1"	1
-CARDFUNCTION10:"ADDCOUNTERRED"	"Damage+1"	1	.25	.54
-CARDFUNCTION11:"REMOVECOUNTERRED"	"Damage-1"	1
-CARDFUNCTION12:"ADDCOUNTERORANGE"	"Token+1"	1	.9	.92
-CARDFUNCTION13:"REMOVECOUNTERORANGE"	"Token-1"	1
-CARDFUNCTION14:"ADDCOUNTERVIOLET"	"Counter+1"	1	.8	.92
-CARDFUNCTION15:"REMOVECOUNTERVIOLET"	"Counter-1"	1
-CARDFUNCTION16:"CLEARCARD"	"Clear"	1
-CARDFUNCTION17:"EDITNOTE"	"Edit Note"	1	.4	.95
-CARDFUNCTION18:"TURNOVER"	"Flip Over"	1
-CARDFUNCTION19:"CHANGEOWNER"	"Take Control"	0
+	<gamezone>
+		<label>Killed</label>
+		<visibletoowner>yes</visibletoowner>
+		<visibletoothers>yes</visibletoothers>
+	</gamezone>
+
+	<gamezone>
+		<label>Removed</label>
+		<visibletoowner>yes</visibletoowner>
+		<visibletoothers>yes</visibletoothers>
+	</gamezone>
+
+	<phase>
+		<label>Ready Round</label>
+	</phase>
+
+	<phase>
+		<label>Challenge Round</label>
+	</phase>
+
+	<phase>
+		<label>Action Round</label>
+	</phase>
+
+	<phase>
+		<label>Rsolution Round</label>
+	</phase>
+
+	<phase>
+		<label>Draw Round</label>
+	</phase>
+
+	<generalfunction>
+		<label>Draw</label>
+		<kind>DRAWCARD</kind>
+		<includeasbutton>yes</includeasbutton>
+	</generalfunction>
+
+	<generalfunction>
+		<label>Draw Up</label>
+		<kind>DRAWCARDTOTABLE</kind>
+		<includeasbutton>no</includeasbutton>
+	</generalfunction>
+
+	<generalfunction>
+		<label>Untap All</label>
+		<kind>ALLYOURCARDSMAKERIGHT0DEGREES</kind>
+		<includeasbutton>yes</includeasbutton>
+	</generalfunction>
+
+	<generalfunction>
+		<label>Roll D20</label>
+		<kind>ROLLD20</kind>
+		<includeasbutton>no</includeasbutton>
+	</generalfunction>
+
+	<generalfunction>
+		<label>Roll D6</label>
+		<kind>ROLLD6</kind>
+		<includeasbutton>no</includeasbutton>
+	</generalfunction>
+
+	<generalfunction>
+		<label>Flip Coin</label>
+		<kind>FLIPCOIN</kind>
+		<includeasbutton>no</includeasbutton>
+	</generalfunction>
+
+	<generalfunction>
+		<label>Spawn Card</label>
+		<kind>SPAWNCARD</kind>
+		<includeasbutton>no</includeasbutton>
+	</generalfunction>
+
+	<generalfunction>
+		<label>Next Turn</label>
+		<kind>NEXTTURN</kind>
+		<includeasbutton>no</includeasbutton>
+	</generalfunction>
+
+	<generalfunction>
+		<label>Previous Turn</label>
+		<kind>PREVIOUSTURN</kind>
+		<includeasbutton>no</includeasbutton>
+	</generalfunction>
+
+	<generalfunction>
+		<label>Next Phase</label>
+		<kind>NEXTPHASE</kind>
+		<includeasbutton>no</includeasbutton>
+	</generalfunction>
+
+	<generalfunction>
+		<label>Previous Phase</label>
+		<kind>PREVIOUSPHASE</kind>
+		<includeasbutton>no</includeasbutton>
+	</generalfunction>
+
+	<cardfunction>
+		<label>Untap</label>
+		<kind>MAKERIGHT0DEGREES</kind>
+		<includeasbutton>yes</includeasbutton>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Tap</label>
+		<kind>MAKERIGHT90DEGREES</kind>
+		<includeasbutton>yes</includeasbutton>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Pol.+1</label>
+		<kind>ADDCOUNTERGREEN</kind>
+		<includeasbutton>yes</includeasbutton>
+		<PositionX>.15</PositionX>
+		<PositionY>.78</PositionY>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Pol.-1</label>
+		<kind>REMOVECOUNTERGREEN</kind>
+		<includeasbutton>yes</includeasbutton>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Int.+1</label>
+		<kind>ADDCOUNTERBLUE</kind>
+		<includeasbutton>yes</includeasbutton>
+		<PositionX>.15</PositionX>
+		<PositionY>.70</PositionY>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Int.-1</label>
+		<kind>REMOVECOUNTERBLUE</kind>
+		<includeasbutton>yes</includeasbutton>
+	</cardfunction>
+
+	<cardfunction>
+		<label>OP.+1</label>
+		<kind>ADDCOUNTERWHITE</kind>
+		<includeasbutton>yes</includeasbutton>
+		<PositionX>.15</PositionX>
+		<PositionY>.62</PositionY>
+	</cardfunction>
+
+	<cardfunction>
+		<label>OP.-1</label>
+		<kind>REMOVECOUNTERWHITE</kind>
+		<includeasbutton>yes</includeasbutton>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Com.+1</label>
+		<kind>ADDCOUNTERBLACK</kind>
+		<includeasbutton>yes</includeasbutton>
+		<PositionX>.15</PositionX>
+		<PositionY>.54</PositionY>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Com.-1</label>
+		<kind>REMOVECOUNTERBLACK</kind>
+		<includeasbutton>yes</includeasbutton>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Damage+1</label>
+		<kind>ADDCOUNTERRED</kind>
+		<includeasbutton>yes</includeasbutton>
+		<PositionX>.25</PositionX>
+		<PositionY>.54</PositionY>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Damage-1</label>
+		<kind>REMOVECOUNTERRED</kind>
+		<includeasbutton>yes</includeasbutton>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Token+1</label>
+		<kind>ADDCOUNTERORANGE</kind>
+		<includeasbutton>yes</includeasbutton>
+		<PositionX>.9</PositionX>
+		<PositionY>.92</PositionY>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Token-1</label>
+		<kind>REMOVECOUNTERORANGE</kind>
+		<includeasbutton>yes</includeasbutton>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Counter+1</label>
+		<kind>ADDCOUNTERVIOLET</kind>
+		<includeasbutton>yes</includeasbutton>
+		<PositionX>.8</PositionX>
+		<PositionY>.92</PositionY>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Counter-1</label>
+		<kind>REMOVECOUNTERVIOLET</kind>
+		<includeasbutton>yes</includeasbutton>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Clear</label>
+		<kind>CLEARCARD</kind>
+		<includeasbutton>yes</includeasbutton>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Edit Note</label>
+		<kind>EDITNOTE</kind>
+		<includeasbutton>yes</includeasbutton>
+		<PositionX>.4</PositionX>
+		<PositionY>.95</PositionY>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Flip Over</label>
+		<kind>TURNOVER</kind>
+		<includeasbutton>yes</includeasbutton>
+	</cardfunction>
+
+	<cardfunction>
+		<label>Take Control</label>
+		<kind>CHANGEOWNER</kind>
+		<includeasbutton>yes</includeasbutton>
+	</cardfunction>
 
 COLUMN0:"Name"	1
 COLUMN1:"Set"	1
@@ -72,6 +295,7 @@ COLUMN16:"Text"	1
 COLUMN17:"Flavor"	0
 COLUMN18:"Artist"	0
 
-ISYOURFACEDOWNVISIBLE:"yes"
+	<definition><kind>ISYOURFACEDOWNVISIBLE</kind><value>no</value></definition>
+	<definition><kind>RULEBOOKFILE</kind><value>documents/WOT_Rules_2-0.pdf</value></definition>
 
-CARDBACK0:"cardback"
+</plugin>
