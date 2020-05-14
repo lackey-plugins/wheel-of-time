@@ -1,10 +1,10 @@
-name: Deploy API
+name: Publish
 on:
   push:
     branches:
       - 'master'
 
-defaults:
+defaults: 
   run:
     shell: bash
 
@@ -50,7 +50,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: _site
+          FOLDER: _api/_site
           TARGET_FOLDER: api
           SINGLE_COMMIT: true
           CLEAN: true
@@ -72,7 +72,7 @@ jobs:
   #       with:
   #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   #         BRANCH: gh-pages
-  #         FOLDER: _site
+  #         FOLDER: _lackey/_site
   #         TARGET_FOLDER: lackey
   #         SINGLE_COMMIT: true
   #         CLEAN: true
