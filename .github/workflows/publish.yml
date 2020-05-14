@@ -45,6 +45,24 @@ jobs:
           SINGLE_COMMIT: true
           CLEAN: true
 
+  documents:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout️ 🛎
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: true
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: documents
+          TARGET_FOLDER: documents
+          SINGLE_COMMIT: true
+          CLEAN: true
+
   api:
     runs-on: ubuntu-latest
     defaults:
