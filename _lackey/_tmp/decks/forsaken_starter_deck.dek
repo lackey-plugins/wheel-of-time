@@ -1,0 +1,57 @@
+<deck version="0.8">
+	<meta>
+		<game>wheel-of-time</game>
+	</meta>
+	<superzone name="Deck">
+		<card><name id="unexpected_ally">Unexpected Ally</name><set>premier</set></card>
+		<card><name id="trolloc_footmen">Trolloc Footmen</name><set>premier</set></card>
+		<card><name id="trolloc_footmen">Trolloc Footmen</name><set>premier</set></card>
+		<card><name id="trolloc_footmen">Trolloc Footmen</name><set>premier</set></card>
+		<card><name id="trolloc">Trolloc</name><set>premier</set></card>
+		<card><name id="trolloc">Trolloc</name><set>premier</set></card>
+		<card><name id="the_tide_of_battle">The Tide of Battle</name><set>premier</set></card>
+		<card><name id="testing_fate">Testing Fate</name><set>premier</set></card>
+		<card><name id="stymied">Stymied</name><set>premier</set></card>
+		<card><name id="stymied">Stymied</name><set>premier</set></card>
+		<card><name id="spying">Spying</name><set>premier</set></card>
+		<card><name id="secondary_efforts">Secondary Efforts</name><set>premier</set></card>
+		<card><name id="secondary_efforts">Secondary Efforts</name><set>premier</set></card>
+		<card><name id="rampage">Rampage</name><set>premier</set></card>
+		<card><name id="rahvin">Rahvin (I)</name><set>premier</set></card>
+		<card><name id="plots">Plots</name><set>premier</set></card>
+		<card><name id="personal_growth">Personal Growth</name><set>premier</set></card>
+		<card><name id="personal_growth">Personal Growth</name><set>premier</set></card>
+		<card><name id="padan_fain">Padan Fain</name><set>premier</set></card>
+		<card><name id="overrun">Overrun</name><set>premier</set></card>
+		<card><name id="overrun">Overrun</name><set>premier</set></card>
+		<card><name id="lord_nasin">Lord Nasin</name><set>premier</set></card>
+		<card><name id="lord_lir">Lord Lir</name><set>premier</set></card>
+		<card><name id="lord_jarid">Lord Jarid</name><set>premier</set></card>
+		<card><name id="lord_gaebril">Lord Gaebril</name><set>premier</set></card>
+		<card><name id="lady_elenia">Lady Elenia</name><set>premier</set></card>
+		<card><name id="human_rabble">Human Rabble</name><set>premier</set></card>
+		<card><name id="human_rabble">Human Rabble</name><set>premier</set></card>
+		<card><name id="healing">Healing</name><set>premier</set></card>
+		<card><name id="healing">Healing</name><set>premier</set></card>
+		<card><name id="fireball">Fireball</name><set>premier</set></card>
+		<card><name id="fireball">Fireball</name><set>premier</set></card>
+		<card><name id="fireball">Fireball</name><set>premier</set></card>
+		<card><name id="fade">Fade</name><set>premier</set></card>
+		<card><name id="fade">Fade</name><set>premier</set></card>
+		<card><name id="dense_forest">Dense Forest</name><set>premier</set></card>
+		<card><name id="decisive_tactics">Decisive Tactics</name><set>premier</set></card>
+		<card><name id="darkfriend">Darkfriend</name><set>premier</set></card>
+		<card><name id="darkfriend">Darkfriend</name><set>premier</set></card>
+		<card><name id="confrontation">Confrontation</name><set>premier</set></card>
+		<card><name id="confrontation">Confrontation</name><set>premier</set></card>
+		<card><name id="commander">Commander</name><set>premier</set></card>
+		<card><name id="commander">Commander</name><set>premier</set></card>
+		<card><name id="bodyguards">Bodyguards</name><set>premier</set></card>
+		<card><name id="bodyguards">Bodyguards</name><set>premier</set></card>
+		<card><name id="andor_infantry">Andor Infantry</name><set>premier</set></card>
+		<card><name id="andor_infantry">Andor Infantry</name><set>premier</set></card>
+		<card><name id="andor_infantry">Andor Infantry</name><set>premier</set></card>
+		<card><name id="a_second_chance">A Second Chance</name><set>premier</set></card>
+		<card><name id="a_second_chance">A Second Chance</name><set>premier</set></card>
+	</superzone>
+</deck>

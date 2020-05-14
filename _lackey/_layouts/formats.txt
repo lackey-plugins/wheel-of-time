@@ -1,0 +1,8 @@
+<formatdefinitions>
+{% for format in site.data.formats %}
+	<format>
+    	<label>{{ format.name }}</label>{% assign sets = format.sets | split: "," %}
+	{% for set in sets %}	<set>{{ set }}</set>
+	{% endfor %}</format>
+{% endfor %}
+</formatdefinitions>

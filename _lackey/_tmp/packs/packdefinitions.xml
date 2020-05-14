@@ -1,0 +1,83 @@
+<packdefinitions version="1.0">
+	<pack>
+    	<packtitle>Premier Booster Pack</packtitle>
+    	<packimage>premier_booster_pack</packimage>
+    	<packkind>booster</packkind>
+    	<packcommoncrit><field>set</field><eval>IS</eval><data>premier</data></packcommoncrit>
+    	
+    	<chance><prob>8</prob>
+    		<kind>
+    			<qty>3</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Common</data></crit>
+    		</kind>
+    		<kind>
+    			<qty>4</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Uncommon</data></crit>
+    		</kind>
+    		<kind>
+    			<qty>1</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Rare</data></crit>
+    		</kind>
+    	</chance>
+    
+    	<chance><prob>17</prob>
+    		<kind>
+    			<qty>4</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Common</data></crit>
+    		</kind>
+    		<kind>
+    			<qty>3</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Uncommon</data></crit>
+    		</kind>
+    		<kind>
+    			<qty>1</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Rare</data></crit>
+    		</kind>
+    	</chance>
+    
+    	<chance><prob>33</prob>
+    		<kind>
+    			<qty>5</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Common</data></crit>
+    		</kind>
+    		<kind>
+    			<qty>2</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Uncommon</data></crit>
+    		</kind>
+    		<kind>
+    			<qty>1</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Rare</data></crit>
+    		</kind>
+    	</chance>
+    
+    	<chance><prob>25</prob>
+    		<kind>
+    			<qty>6</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Common</data></crit>
+    		</kind>
+    		<kind>
+    			<qty>1</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Uncommon</data></crit>
+    		</kind>
+    		<kind>
+    			<qty>1</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Rare</data></crit>
+    		</kind>
+    	</chance>
+    
+    	<chance><prob>17</prob>
+    		<kind>
+    			<qty>7</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Common</data></crit>
+    		</kind>
+    		<kind>
+    			<qty>0</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Uncommon</data></crit>
+    		</kind>
+    		<kind>
+    			<qty>1</qty>
+    			<crit><field>rarity</field><eval>IS</eval><data>Rare</data></crit>
+    		</kind>
+    	</chance>
+    </pack>
+</formatdefinitions>

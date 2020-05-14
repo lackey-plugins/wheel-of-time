@@ -1,0 +1,12 @@
+id	name	set	politics_cost	intrigue_cost	one_power_cost	combat_cost	type	subtype_allegiance	attribute	politics_ability	intrigue_ability	one_power_ability	combat_ability	rarity	collector	text	flavor	artist
+night_raid	Night Raid	promo					Challenge							Promo	00-001 P	Trollocs poured out of the night, snouted faces and horned heads, towering over the humans, howling and swingning scythe-curved swords, stabbing with hooked spears and barbed tridents, hacking with spiked axes.		
+filled_with_power	Filled With Power	promo					Event							Promo	00-002 P	The Power boiled in her till she thought she must burst; her knees quivered with the effort of standing.		
+battle_fury	Battle Fury	promo					Event							Promo	00-003 P	Perrin could see those misshapen faces, contorted with rage and frenzy, as clearly as if they were right on top of him.		
+unravel_the_pattern	Unravel the Pattern	promo					Event							Promo	00-004 P	The ripples were incalculable.  The Pattern itself nearly unraveled.  It could have been the destruction of everything.  World, time, Creation itself.		
+uncontrolled_rage	Uncontrolled Rage	promo					Advantage	Character						Promo	00-005 P	They will pay, Lews Therin growled.  I am the Lord of the Morning.		
+things_yet_to_come	Things Yet to Come	promo					Advantage	Player						Promo	00-006 P	On Tremalking, one of the Sea Folk's isles, there be a stone hand fifty feet high sticking out of a hill, clutching a crystal sphere as big as this vessel.		
+power_play	Power Play	promo					Event							Promo	00-007 P	As quiet as they had been, the words "Aes Sedai" ran through the crowd in tones ranging from awe to fear to outrage.		
+pitched_battle	Pitched Battle	promo					Event							Promo	00-008 P	Lan's sword accounted for those who escaped Moiraine's fire.  The Warder had blood on both sides of his face, yet he flowed through the forms as coolly as if practicing before a mirror.		
+moment_of_transition	Moment of Transition	promo					Event	Limited						Promo	00-009 P	And you really think I can learn?  I can become an Aes Sedai?		
+friend_of_the_dark	Friend of the Dark	promo					Character	Dark One	Multiple		2			Promo	00-010 P	Yes, Great Master.  It shall be as you say.  Yes.  Yes.		
+insane_designer	Insane Designer	promo	1	1	1	1	Character	Precedence		6	6	6	6	Promo	00-011 P	You may only bring this card into play if your name appears in the credits to the game.  There is no cost.  Every time this character takes a point of damage, he generates the following ability symbols: [Politics Icon] [Intrigue Icon] [One Power Icon] [Combat Icon] 		

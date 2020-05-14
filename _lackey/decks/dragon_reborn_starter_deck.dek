@@ -1,0 +1,57 @@
+<deck version="0.8">
+	<meta>
+		<game>wheel-of-time</game>
+	</meta>
+	<superzone name="Deck">
+		<card><name id="unexpected_ally">Unexpected Ally</name><set>premier</set></card>
+		<card><name id="unexpected_ally">Unexpected Ally</name><set>premier</set></card>
+		<card><name id="the_tide_of_battle">The Tide of Battle</name><set>premier</set></card>
+		<card><name id="testing_fate">Testing Fate</name><set>premier</set></card>
+		<card><name id="stymied">Stymied</name><set>premier</set></card>
+		<card><name id="spying">Spying</name><set>premier</set></card>
+		<card><name id="similar_ideals">Similar Ideals</name><set>premier</set></card>
+		<card><name id="similar_ideals">Similar Ideals</name><set>premier</set></card>
+		<card><name id="seasoned_warrior">Seasoned Warrior</name><set>premier</set></card>
+		<card><name id="seasoned_warrior">Seasoned Warrior</name><set>premier</set></card>
+		<card><name id="rand_al_thor_i">Rand al&apos;Thor (I)</name><set>premier</set></card>
+		<card><name id="plots">Plots</name><set>premier</set></card>
+		<card><name id="personal_growth">Personal Growth</name><set>premier</set></card>
+		<card><name id="personal_growth">Personal Growth</name><set>premier</set></card>
+		<card><name id="perrin_aybara">Perrin Aybara (I)</name><set>premier</set></card>
+		<card><name id="moiraine_sedai">Moiraine Sedai</name><set>premier</set></card>
+		<card><name id="mat_cauthon">Mat Cauthon (I)</name><set>premier</set></card>
+		<card><name id="lord_pelivar">Lord Pelivar</name><set>premier</set></card>
+		<card><name id="light_cavalry">Light Cavalry</name><set>premier</set></card>
+		<card><name id="light_cavalry">Light Cavalry</name><set>premier</set></card>
+		<card><name id="lan_mandragoran">Lan Mandragoran</name><set>premier</set></card>
+		<card><name id="lady_ellorien">Lady Ellorien</name><set>premier</set></card>
+		<card><name id="lady_arathelle">Lady Arathelle</name><set>premier</set></card>
+		<card><name id="lady_aemlyn">Lady Aemlyn</name><set>premier</set></card>
+		<card><name id="heroic_efforts">Heroic Efforts</name><set>premier</set></card>
+		<card><name id="healing">Healing</name><set>premier</set></card>
+		<card><name id="healing">Healing</name><set>premier</set></card>
+		<card><name id="gather_allies">Gather Allies</name><set>premier</set></card>
+		<card><name id="gather_allies">Gather Allies</name><set>premier</set></card>
+		<card><name id="gaining_an_advantage">Gaining An Advantage</name><set>premier</set></card>
+		<card><name id="fireball">Fireball</name><set>premier</set></card>
+		<card><name id="fireball">Fireball</name><set>premier</set></card>
+		<card><name id="elayne_trakand">Elayne Trakand</name><set>premier</set></card>
+		<card><name id="egwene_al_vere">Egwene al&apos;Vere</name><set>premier</set></card>
+		<card><name id="dense_forest">Dense Forest</name><set>premier</set></card>
+		<card><name id="decisive_tactics">Decisive Tactics</name><set>premier</set></card>
+		<card><name id="debt_of_honor">Debt of Honor</name><set>premier</set></card>
+		<card><name id="confrontation">Confrontation</name><set>premier</set></card>
+		<card><name id="commander">Commander</name><set>premier</set></card>
+		<card><name id="commander">Commander</name><set>premier</set></card>
+		<card><name id="bodyguards">Bodyguards</name><set>premier</set></card>
+		<card><name id="bodyguards">Bodyguards</name><set>premier</set></card>
+		<card><name id="andor_infantry">Andor Infantry</name><set>premier</set></card>
+		<card><name id="andor_infantry">Andor Infantry</name><set>premier</set></card>
+		<card><name id="andor_infantry">Andor Infantry</name><set>premier</set></card>
+		<card><name id="andor_cavalry">Andor Cavalry</name><set>premier</set></card>
+		<card><name id="andor_cavalry">Andor Cavalry</name><set>premier</set></card>
+		<card><name id="andor_cavalry">Andor Cavalry</name><set>premier</set></card>
+		<card><name id="a_second_chance">A Second Chance</name><set>premier</set></card>
+		<card><name id="a_second_chance">A Second Chance</name><set>premier</set></card>
+	</superzone>
+</deck>

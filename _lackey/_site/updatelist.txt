@@ -1,0 +1,82 @@
+wheel-of-time	05-14-20
+
+plugins/wheel-of-time/plugininfo.txt	https://lackey-plugins.github.io/wheel-of-time/lackey/plugininfo.txt	6845
+plugins/wheel-of-time/fomats.txt	https://lackey-plugins.github.io/wheel-of-time/lackey/formats.txt	422
+
+
+plugins/wheel-of-time/sets/children_of_the_dragon.txt	https://lackey-plugins.github.io/wheel-of-time/data/children_of_the_dragon.tsv	59546
+
+plugins/wheel-of-time/sets/cycles.txt	https://lackey-plugins.github.io/wheel-of-time/data/cycles.tsv	2752
+
+plugins/wheel-of-time/sets/dark_prophecies.txt	https://lackey-plugins.github.io/wheel-of-time/data/dark_prophecies.tsv	50472
+
+plugins/wheel-of-time/sets/premier.txt	https://lackey-plugins.github.io/wheel-of-time/data/premier.tsv	78385
+
+plugins/wheel-of-time/sets/promo.txt	https://lackey-plugins.github.io/wheel-of-time/data/promo.tsv	2567
+
+plugins/wheel-of-time/sets/second_edition.txt	https://lackey-plugins.github.io/wheel-of-time/data/second_edition.tsv	203
+
+plugins/wheel-of-time/sets/the_borderlands.txt	https://lackey-plugins.github.io/wheel-of-time/data/the_borderlands.tsv	203
+
+plugins/wheel-of-time/sets/the_crystal_throne.txt	https://lackey-plugins.github.io/wheel-of-time/data/the_crystal_throne.tsv	203
+
+plugins/wheel-of-time/sets/the_white_tower.txt	https://lackey-plugins.github.io/wheel-of-time/data/the_white_tower.tsv	203
+
+plugins/wheel-of-time/sets/the_world_of_dreams.txt	https://lackey-plugins.github.io/wheel-of-time/data/the_world_of_dreams.tsv	203
+
+
+
+plugins/wheel-of-time/packs/packdefinitions.xml	https://lackey-plugins.github.io/wheel-of-time/packs/packdefinitions.xml	2386
+
+
+plugins/wheel-of-time/packs/2_player_starter_set.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/2_player_starter_set.jpg		285342
+
+plugins/wheel-of-time/packs/children_of_the_dragon_booster_display_box.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/children_of_the_dragon_booster_display_box.jpg		64441
+
+plugins/wheel-of-time/packs/children_of_the_dragon_booster_pack.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/children_of_the_dragon_booster_pack.jpg		99604
+
+plugins/wheel-of-time/packs/children_of_the_dragon_booster_pack_back.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/children_of_the_dragon_booster_pack_back.jpg		108902
+
+plugins/wheel-of-time/packs/dark_prophecies_booster_display_box.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/dark_prophecies_booster_display_box.jpg		60051
+
+plugins/wheel-of-time/packs/dark_prophecies_booster_pack.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/dark_prophecies_booster_pack.jpg		48722
+
+plugins/wheel-of-time/packs/dark_prophecies_booster_pack_back.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/dark_prophecies_booster_pack_back.jpg		118051
+
+plugins/wheel-of-time/packs/dragon_reborn_starter_deck.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/dragon_reborn_starter_deck.jpg		117040
+
+plugins/wheel-of-time/packs/dragon_reborn_starter_deck_back.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/dragon_reborn_starter_deck_back.jpg		135623
+
+plugins/wheel-of-time/packs/forsaken_starter_deck.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/forsaken_starter_deck.jpg		60869
+
+plugins/wheel-of-time/packs/forsaken_starter_deck_back.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/forsaken_starter_deck_back.jpg		68848
+
+plugins/wheel-of-time/packs/inquest_magazine_december_1999.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/inquest_magazine_december_1999.jpg		29313
+
+plugins/wheel-of-time/packs/inquest_magazine_november_2000.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/inquest_magazine_november_2000.jpg		47005
+
+plugins/wheel-of-time/packs/premier_booster_display_box.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/premier_booster_display_box.jpg		67972
+
+plugins/wheel-of-time/packs/premier_booster_pack.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/premier_booster_pack.jpg		90959
+
+plugins/wheel-of-time/packs/premier_booster_pack_back.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/premier_booster_pack_back.jpg		105239
+
+plugins/wheel-of-time/packs/scrye_magazine_december_1999.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/scrye_magazine_december_1999.jpg		34848
+
+plugins/wheel-of-time/packs/starter_display_box.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/starter_display_box.jpg		105463
+
+plugins/wheel-of-time/packs/starter_display_box_back.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/starter_display_box_back.jpg		107979
+
+plugins/wheel-of-time/packs/starter_display_box_sides.jpg	https://lackey-plugins.github.io/wheel-of-time/images/packs/starter_display_box_sides.jpg		117035
+
+
+
+
+
+
+plugins/wheel-of-time/decks/dragon_reborn_starter_deck.dek	https://lackey-plugins.github.io/wheel-of-time/images/decks/dragon_reborn_starter_deck.dek	4048
+
+plugins/wheel-of-time/decks/forsaken_starter_deck.dek	https://lackey-plugins.github.io/wheel-of-time/images/decks/forsaken_starter_deck.dek	3838
+
+
+

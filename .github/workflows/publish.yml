@@ -9,7 +9,7 @@ defaults:
     shell: bash
 
 jobs:
-  publish-api:
+  api:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -55,7 +55,7 @@ jobs:
           SINGLE_COMMIT: true
           CLEAN: true
 
-  # publish-lackey:
+  # lackey:
   #   runs-on: ubuntu-latest
   #   defaults:
   #     run:

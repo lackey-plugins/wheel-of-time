@@ -1,0 +1,15 @@
+<packdefinitions version="1.0">{% for pack in site.data.packs %}{% assign definition = pack.definition | json %}
+	<pack>
+    	<packtitle>{{ pack.name }}</packtitle>
+    	<packimage>{{ pack.id }}</packimage>
+    	<packkind>{{ pack.type }}</packkind>
+    	{% for commoncrit in definition.criteria %}<packcommoncrit>{{ commoncrit | crit }}</packcommoncrit>{% endfor %}
+    	{% for chance in definition.chances %}
+    	<chance><prob>{{ chance.prob | round }}</prob>{% for kind in chance.kinds %}
+    		<kind>
+    			<qty>{{ kind.quantity }}</qty>
+    			{% for criteria in kind.criteria %}<crit>{{ criteria | crit }}</crit>{% endfor %}
+    		</kind>{% endfor %}
+    	</chance>
+    {% endfor %}</pack>
+{% endfor %}</formatdefinitions>

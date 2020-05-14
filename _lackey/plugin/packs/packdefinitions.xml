@@ -38,11 +38,10 @@
 
 <pack><packtitle>2 Player Starter Set</packtitle>
      <packimage>2_player_starter_set</packimage>
-     <packimage>dragon_reborn_starter_deck</packimage>
      <packformat>standard</packformat>
      <packkind>Starter</packkind>
      <packdoubles>yes</packdoubles>
-     <packcommoncrit><field>set</field><eval>IS</eval><data>premier</packcommoncrit>
+     <packcommoncrit><field>set</field><eval>IS</eval><data>premier</data></packcommoncrit>
      <chance>
           <kind><qty>2</qty><crit><field>id</field><eval>IS</eval><data>a_second_chance</data></crit></kind>
           <kind><qty>3</qty><crit><field>id</field><eval>IS</eval><data>andor_cavalry</data></crit></kind>
