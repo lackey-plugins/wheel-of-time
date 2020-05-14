@@ -1,8 +1,8 @@
 title: Wheel of Time
 email: benthicmaw+lackey@gmail.com
 description:
-baseurl: "/"
-url: "https://_lackey-plugins.github.io/wheel-of-time"
+baseurl: "/api"
+url: "https://lackey-plugins.github.io/wheel-of-time"
 github_username:  lackey-plugins
 
 data_dir: ../data
@@ -12,11 +12,11 @@ collections:
     output: true
     sources:
       - sets.tsv
-    related:
-      - from_field: name
-        to_field: set
-        collection: cards
-    id_key: _id
+#    related:
+#      - from_field: id
+#        to_field: set
+#        collection: cards
+    id_key: id
     layout: jsonapi
     index: true
     image_base: https://images.ccgsimulator.com/harry_potter
@@ -30,9 +30,9 @@ collections:
       - cards/promo.tsv
     related:
       - from_field: set
-        to_field: name
+        to_field: id
         collection: sets
-    id_key: _id
+    id_key: id
     layout: jsonapi
     index: true
     image_base: https://images.ccgsimulator.com/harry_potter

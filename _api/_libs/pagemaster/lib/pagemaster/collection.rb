@@ -23,7 +23,7 @@ module Pagemaster
       @id_key = fetch 'id_key'
       @layout = fetch 'layout'
       @data_version = `git rev-parse --short HEAD`.strip
-      @build_version = `git rev-parse --short origin/develop`.strip
+      # @build_version = `git rev-parse --short origin/develop`.strip
     end
 
     def label
@@ -48,7 +48,7 @@ module Pagemaster
       when '.csv'
         CSV.read(file, headers: true, converters: [:numeric, :boolean]).map(&:to_hash)
       when '.tsv'
-        CSV.read(file, headers: true, converters: [:numeric, :boolean], col_sep: "\t").map(&:to_hash)
+        CSV.read(file, headers: true, converters: [:numeric, :boolean], col_sep: "\t", quote_char: nil).map(&:to_hash)
       when '.json'
         JSON.parse(File.read(file).encode('UTF-8'))
       when /\.ya?ml/
@@ -56,7 +56,8 @@ module Pagemaster
       else
         raise Error::InvalidSource, "Collection source #{file} must have a valid extension (.csv, .tsv, .yml, or .json)"
       end
-    rescue StandardError
+    rescue StandardError => e
+      puts "Rescued: #{e.inspect}"
       raise Error::InvalidSource, "Cannot load #{file}. check for typos and rebuild."
     end
 
@@ -96,7 +97,7 @@ module Pagemaster
 
       @data.map do |d|
         path = [@name, d.dig(@id_key)].join("/")
-        links[d.dig('_id')] = [@base, path].join('/') + ".json"
+        links[d.dig(@id_key)] = [@base, path].join('/') + ".json"
       end
 
       links
@@ -155,19 +156,18 @@ module Pagemaster
                 matches.named_captures
               end
             else
-              col_relations.append({})
+              col_relations.append(d)
             end
 
-            col_relations.each { |rel| d.merge(rel) }.map do |dr|
+            col_relations.map do |dr|
               meta = (c['extra']['meta'] if c.key? 'extra') or {}
               if %w[from_field to_field collection].all? {|s| c.key? s}
                 value = dr.dig(from_field)
                 data[collection].select {|row| row[to_field] === value }.each do |r|
-                  r = r.merge(dr)
                   rel = {
-                      "meta" => meta.nil? ? {} : meta.map {|k, v| [k, (r.key?(v) ? (Integer(r.dig(v)) rescue r.dig(v)) : v)]}.to_h,
-                      "href" => links[collection][r.dig('_id')]
+                      "href" => links[collection][r.dig(@id_key)]
                   }
+                  rel["meta"] = meta.map {|k, v| [k, (r.key?(v) ? (Integer(r.dig(v)) rescue r.dig(v)) : v)]}.to_h unless meta.nil?
                   relationships[collection]["links"]["related"].append(rel)
                 end
               end
@@ -193,12 +193,12 @@ module Pagemaster
 
         res = Hash.new
         res['jsonapi'] = { "version" => @build_version }
-        res['links'] = { "self" => links[@name][d.dig('_id')] }
+        res['links'] = { "self" => links[@name][d.dig(@id_key)] }
         res['meta'] = { "version" => @data_version }
         res['data'] = {
           "type" => "#{@name}",
-          "id" => d.dig('_id'),
-          "attributes" => d.clone.tap { |hs| hs.delete("_id") },
+          "id" => d.dig(@id_key),
+          "attributes" => d.clone.tap { |hs| hs.delete(@id_key) },
           "relationships" => build_relationships(d, links, _data)
         }
         res['layout'] = @layout
@@ -251,7 +251,7 @@ module Pagemaster
       res['data'] = {
         "relationships" => {
           "#{@name}" => {
-            "related" => data.map {|d| links[@name][d.dig('_id')]}
+            "related" => data.map {|d| links[@name][d.dig(@id_key)]}
           }
         }
       }
