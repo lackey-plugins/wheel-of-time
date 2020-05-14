@@ -22,7 +22,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: images/cards
+          FOLDER: images
           TARGET_FOLDER: images
           SINGLE_COMMIT: true
           CLEAN: true

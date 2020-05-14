@@ -3,7 +3,7 @@ require 'json'
 module Jekyll
   module JsonFilter
     def json(input)
-      JSON.parse(input)
+      JSON.parse(input.gsub(/'/, '"'))
     end
   end
 end

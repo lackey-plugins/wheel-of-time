@@ -7,7 +7,7 @@ packdefinitions:
 	cp ../data/packs.tsv _data
 
 jekyll: formats packdefinitions
-	bundle exec jekyll build
+	bundle exec jekyll build --trace
 	cp -r _site/* _tmp/
 	cp _tmp/updatelist.txt.md ./
 	cp _tmp/plugininfo.txt ./

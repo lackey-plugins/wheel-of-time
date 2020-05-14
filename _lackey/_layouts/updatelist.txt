@@ -14,9 +14,9 @@ plugins/{{ site.name }}/packs/packdefinitions.xml	{{ site.url }}/packs/packdefin
 {% endloop_directory %}
 {% loop_directory directory:../documents iterator:doc filter:*.pdf sort:ascending %}plugins/{{ site.name }}/documents/{{ doc }}.pdf	{{ site.url }}/documents/{{ doc }}.pdf	{{ "../documents/" | append: doc | append: ".pdf" | checksum }}
 {% endloop_directory %}
-plugins/{{ site.name }}/bot.jpg	{{ site.url }}/lackey/bot.jpg	{{ "../images/general/bot.jpg" | checksum }}
-plugins/{{ site.name }}/sets/setimages/general/spawned.jpg	{{ site.url }}/images/cards/144/spawned.jpg	{{ "../images/cards/144/spawned.jpg" | checksum }}
-plugins/{{ site.name }}/sets/setimages/general/cardback.jpg	{{ site.url }}/images/cards/144/cardback.jpg	{{ "../images/cards/144/cardback.jpg" | checksum }}
+plugins/{{ site.name }}/bot.jpg	{{ site.url }}/images/general/bot.jpg	{{ "../images/general/bot.jpg" | checksum }}
+plugins/{{ site.name }}/sets/setimages/general/spawned.jpg	{{ site.url }}/images/general/spawned.jpg	{{ "../images/general/spawned.jpg" | checksum }}
+plugins/{{ site.name }}/sets/setimages/general/cardback.jpg	{{ site.url }}/images/general/cardback.jpg	{{ "../images/general/cardback.jpg" | checksum }}
 
 {% loop_directory directory:../images/playmats iterator:background filter:*.jpg sort:ascending %}images/backgrounds/{{ background }}.jpg	{{ site.url }}/images/playmats/{{ background }}.jpg	{{ "../images/playmats/" | append: background | append: ".jpg" | checksum }}
 {% endloop_directory %}
@@ -24,4 +24,4 @@ plugins/{{ site.name }}/sets/setimages/general/cardback.jpg	{{ site.url }}/image
 {% endloop_directory %}
 
 CardGeneralURLs:
-{{ site.url }}/images
+{{ site.url }}/images/cards
