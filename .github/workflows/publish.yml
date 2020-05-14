@@ -9,6 +9,24 @@ defaults:
     shell: bash
 
 jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout️ 🛎
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: true
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: data
+          TARGET_FOLDER: data
+          SINGLE_COMMIT: true
+          CLEAN: true
+
   images:
     runs-on: ubuntu-latest
     steps:
