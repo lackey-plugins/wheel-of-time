@@ -5,12 +5,12 @@ plugins/{{ site.name }}/fomats.txt	{{ site.url }}/lackey/formats.txt	{{ "_tmp/fo
 
 {% loop_directory directory:../data/cards iterator:set filter:*.tsv sort:ascending %}plugins/{{ site.name }}/sets/{{ set }}.txt	{{ site.url }}/data/cards/{{ set }}.tsv	{{ "../data/cards/" | append: set | append: ".tsv" | checksum }}
 {% endloop_directory %}
-plugins/{{ site.name }}/packs/packdefinitions.xml	{{ site.url }}/packs/packdefinitions.xml	{{ "_tmp/packs/packdefinitions.xml" | checksum }}
+plugins/{{ site.name }}/packs/packdefinitions.xml	{{ site.url }}/lackey/packs/packdefinitions.xml	{{ "_tmp/packs/packdefinitions.xml" | checksum }}
 {% loop_directory directory:../images/packs iterator:pack filter:*.jpg sort:ascending %}plugins/{{ site.name }}/packs/{{ pack }}.jpg	{{ site.url }}/images/packs/{{ pack }}.jpg		{{ "../images/packs/" | append: pack | append: ".jpg" | checksum }}
 {% endloop_directory %}{% loop_directory directory:../images/packs iterator:pack filter:*.png sort:ascending %}plugins/{{ site.name }}/packs/{{ pack }}.png	{{ site.url }}/images/packs/{{ pack }}.png		{{ "../images/packs/" | append: pack | append: ".png" | checksum }}
 {% endloop_directory %}
-{% loop_directory directory:../data/decks iterator:deck filter:*.dek sort:ascending %}plugins/{{ site.name }}/decks/{{ deck }}.dek	{{ site.url }}/lackey/decks/{{ deck }}.dek	{{ "../data/decks/" | append: deck | append: ".dek" | checksum }}
-{% endloop_directory %}{% loop_directory directory:../decks iterator:deck filter:*.txt sort:ascending %}plugins/{{ site.name }}/decks/{{ deck }}.txt	{{ site.url }}/lackey/decks/{{ deck }}.txt	{{ "../data/decks/" | append: deck | append: ".txt" | checksum }}
+{% loop_directory directory:../data/decks iterator:deck filter:*.dek sort:ascending %}plugins/{{ site.name }}/data/decks/{{ deck }}.dek	{{ site.url }}/data/decks/{{ deck }}.dek	{{ "../data/decks/" | append: deck | append: ".dek" | checksum }}
+{% endloop_directory %}{% loop_directory directory:../decks iterator:deck filter:*.txt sort:ascending %}plugins/{{ site.name }}/data/decks/{{ deck }}.txt	{{ site.url }}/lackey/decks/{{ deck }}.txt	{{ "../data/decks/" | append: deck | append: ".txt" | checksum }}
 {% endloop_directory %}
 {% loop_directory directory:../documents iterator:doc filter:*.pdf sort:ascending %}plugins/{{ site.name }}/documents/{{ doc }}.pdf	{{ site.url }}/documents/{{ doc }}.pdf	{{ "../documents/" | append: doc | append: ".pdf" | checksum }}
 {% endloop_directory %}
