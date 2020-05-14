@@ -19,7 +19,7 @@ collections:
     id_key: id
     layout: jsonapi
     index: true
-    image_base: https://images.ccgsimulator.com/harry_potter
+    # image_base: https://images.ccgsimulator.com/wheel-of-time
   cards:
     output: true
     sources:
@@ -35,7 +35,7 @@ collections:
     id_key: id
     layout: jsonapi
     index: true
-    image_base: https://images.ccgsimulator.com/harry_potter
+    # image_base: https://images.ccgsimulator.com/wheel-of-time
   # decks:
   #   output: true
   #   sources: [ decks.csv ]
@@ -68,3 +68,4 @@ collections:
   #   image_base: https://images.ccgsimulator.com/harry_potter
 
 exclude: [README.MD", "data", "documents", "images", "_lackey"]
+include: ["_index"]
