@@ -11,7 +11,10 @@ defaults:
 jobs:
   publish-api:
     runs-on: ubuntu-latest
-    working-directory: _api
+    defaults:
+      run:
+        shell: bash
+        working-directory: _api
     steps:
       - name: Checkout️ 🛎
         uses: actions/checkout@v2
@@ -54,7 +57,10 @@ jobs:
 
   # publish-lackey:
   #   runs-on: ubuntu-latest
-  #   working-directory: _lackey
+  #   defaults:
+  #     run:
+  #       shell: bash
+  #       working-directory: _lackey
   #   steps:
   #     - name: Checkout️ 🛎
   #       uses: actions/checkout@v2
