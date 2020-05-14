@@ -29,7 +29,7 @@ jobs:
       - name: Cache 💾
         uses: actions/cache@v1
         with:
-          path: vendor/bundle
+          path: _api/vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
