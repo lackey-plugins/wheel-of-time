@@ -1,29 +1,29 @@
-name: Publish Lackey Plugin
-on:
-  push:
-    branches:
-      - 'master'
+# name: Publish Lackey Plugin
+# on:
+#   push:
+#     branches:
+#       - 'master'
 
-defaults:
-  run:
-    shell: bash
-    working-directory: _lackey
+# defaults:
+#   run:
+#     shell: bash
+#     working-directory: _lackey
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout️ 🛎
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: true
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout️ 🛎
+#         uses: actions/checkout@v2
+#         with:
+#           persist-credentials: true
 
-      - name: Deploy Plugin 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: _site
-          TARGET_FOLDER: lackey
-          SINGLE_COMMIT: true
-          CLEAN: true
+#       - name: Deploy Plugin 🚀
+#         uses: JamesIves/github-pages-deploy-action@releases/v3
+#         with:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#           BRANCH: gh-pages
+#           FOLDER: _site
+#           TARGET_FOLDER: lackey
+#           SINGLE_COMMIT: true
+#           CLEAN: true
