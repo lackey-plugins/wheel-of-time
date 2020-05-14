@@ -111,7 +111,7 @@ jobs:
       - name: Cache 💾
         uses: actions/cache@v1
         with:
-          path: _api/vendor/bundle
+          path: _lackey/vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
