@@ -3,7 +3,7 @@
 plugins/{{ site.name }}/plugininfo.txt	{{ site.url }}/lackey/plugininfo.txt	{{ "_tmp/plugininfo.txt" | checksum }}
 plugins/{{ site.name }}/fomats.txt	{{ site.url }}/lackey/formats.txt	{{ "_tmp/formats.txt" | checksum }}
 
-{% loop_directory directory:../data/cards iterator:set filter:*.tsv sort:ascending %}plugins/{{ site.name }}/sets/{{ set }}.txt	{{ site.url }}/data/cards/{{ set }}.tsv	{{ "../data/cards/" | append: set | append: ".tsv" | checksum }}
+{% loop_directory directory:sets iterator:set filter:*.txt sort:ascending %}plugins/{{ site.name }}/sets/{{ set }}.txt	{{ site.url }}/lackey/sets/{{ set }}.tsv	{{ "sets/" | append: set | append: ".txt" | checksum }}
 {% endloop_directory %}
 plugins/{{ site.name }}/packs/packdefinitions.xml	{{ site.url }}/lackey/packs/packdefinitions.xml	{{ "_tmp/packs/packdefinitions.xml" | checksum }}
 {% loop_directory directory:../images/packs iterator:pack filter:*.jpg sort:ascending %}plugins/{{ site.name }}/packs/{{ pack }}.jpg	{{ site.url }}/images/packs/{{ pack }}.jpg		{{ "../images/packs/" | append: pack | append: ".jpg" | checksum }}

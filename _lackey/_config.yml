@@ -6,6 +6,6 @@ baseurl: "/lackey"
 url: "https://lackey-plugins.github.io/wheel-of-time"
 github_username:  lackey-plugins
 
-exclude: [plugin, Makefile]
+exclude: [Makefile, _scripts]
 include: [plugininfo.txt]
 keep_files: [sets, decks, _site]
