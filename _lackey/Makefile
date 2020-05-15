@@ -12,6 +12,10 @@ sets:
 		bundle exec ruby _scripts/convert_tsv.rb $$f "sets/$$(basename $$f .tsv).txt"; \
 	done
 
+decks:
+	mkdir -p decks
+	cp ../data/decks/* decks
+
 jekyll: sets formats packdefinitions
 	bundle exec jekyll build
 	cp -r _site/* _tmp/
