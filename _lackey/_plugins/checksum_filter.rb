@@ -1,7 +1,9 @@
 module Jekyll
   module ChecksumFilter
     def checksum(input)
-      File.size(input)
+      sum = Integer(-1)
+      File.open(input, "rb").read.unpack("c*").each { |char| sum += char if char != 10 and char != 13 }
+      sum
     end
   end
 end
