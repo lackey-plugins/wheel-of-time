@@ -18,11 +18,11 @@ decks:
 	cp ../data/decks/* decks
 
 jekyll: sets formats packdefinitions
-	bundle exec jekyll build
+	bundle exec jekyll build --trace
 	cp -r _site/* _tmp/
 	cp _tmp/updatelist.txt.md ./
 	cp _tmp/plugininfo.txt ./
-	bundle exec jekyll build
+	bundle exec jekyll build --trace
 
 clean:
 	rm -rf _data _site sets _tmp/formats _tmp/decks _tmp/packs _tmp/sets _tmp/formats.txt _tmp/updatelist.txt
