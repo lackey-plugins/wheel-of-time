@@ -17,7 +17,7 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Deploy 🚀
+      - name: Deploy Images 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -35,7 +35,7 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Deploy 🚀
+      - name: Deploy Documents 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -81,7 +81,7 @@ jobs:
           bundle exec jekyll pagemaster cards sets
           bundle exec jekyll build
 
-      - name: Deploy 🚀
+      - name: Deploy API 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
