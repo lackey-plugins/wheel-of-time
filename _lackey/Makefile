@@ -4,8 +4,7 @@ formats:
 
 packdefinitions:
 	mkdir -p _data
-	cp ../data/packs.tsv _data
-	sed -i "" -e "s/\\\"+/\\'/g" _data/packs.tsv # Hack because Jekyll doesn't like quotes in TSVs
+	tr \" \' < ../data/packs.tsv > _data/packs.tsv # Hack because Jekyll doesn't like quotes in TSVs
 
 sets:
 	mkdir -p sets
