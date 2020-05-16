@@ -1,5 +1,11 @@
 .jekyll-cache
 .bundle
 vendor
-_api/_*
-_lackey/_site
+_site
+
+_index.pagemaster.json
+
+_api/_cards
+_api/_sets
+
+_lackey/decks

@@ -9,13 +9,38 @@ defaults:
     shell: bash
 
 jobs:
-  images:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout️ 🛎
         uses: actions/checkout@v2
         with:
           persist-credentials: true
+
+      - name: Setup Ruby 💎
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+
+      - name: API Cache 💾
+        uses: actions/cache@v1
+        with:
+          path: _api/vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Lackey Cache 💾
+        uses: actions/cache@v1
+        with:
+          path: _lackey/vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Make 🔧
+        run: |
+          make all
 
       - name: Deploy Images 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
@@ -27,15 +52,6 @@ jobs:
           SINGLE_COMMIT: true
           CLEAN: true
 
-  documents:
-    needs: images
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout️ 🛎
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: true
-
       - name: Deploy Documents 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
@@ -46,43 +62,6 @@ jobs:
           SINGLE_COMMIT: true
           CLEAN: true
 
-  api:
-    needs: documents
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
-        working-directory: _api
-    steps:
-      - name: Checkout️ 🛎
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: true
-
-      - name: Setup Ruby 💎
-        uses: actions/setup-ruby@v1
-        with:
-          ruby-version: 2.6
-
-      - name: Cache 💾
-        uses: actions/cache@v1
-        with:
-          path: _api/vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-
-      - name: Install 🔧
-        run: |
-          gem install bundler
-          bundle config path vendor/bundle
-          bundle install --jobs 4 --retry 3
-
-      - name: Build 🏗
-        run: |
-          bundle exec jekyll pagemaster cards sets
-          bundle exec jekyll build
-
       - name: Deploy API 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
@@ -92,42 +71,6 @@ jobs:
           TARGET_FOLDER: api
           SINGLE_COMMIT: true
           CLEAN: true
-
-  lackey:
-    needs: api
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
-        working-directory: _lackey
-    steps:
-      - name: Checkout️ 🛎
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: true
-
-      - name: Setup Ruby 💎
-        uses: actions/setup-ruby@v1
-        with:
-          ruby-version: 2.6
-
-      - name: Cache 💾
-        uses: actions/cache@v1
-        with:
-          path: _lackey/vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-
-      - name: Install 🔧
-        run: |
-          gem install bundler
-          bundle config path vendor/bundle
-          bundle install --jobs 4 --retry 3
-
-      - name: Build 🏗
-        run: |
-          make jekyll
 
       - name: Deploy Plugin 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3

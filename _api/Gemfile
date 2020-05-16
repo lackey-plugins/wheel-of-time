@@ -13,7 +13,7 @@ gem "jekyll", "~> 4.0.0"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "pagemaster", path: "_libs/pagemaster", gemfile: "_libs/pagemaster/Gemfile"
+  gem "pagemaster", :git => 'git@github.com:lackey-plugins/pagemaster.git', :branch => 'master'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
