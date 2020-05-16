@@ -6,7 +6,7 @@ on:
 
 defaults: 
   run:
-    shell: bashg
+    shell: bash
 
 jobs:
   publish:
@@ -26,17 +26,17 @@ jobs:
         uses: actions/cache@v1
         with:
           path: _api/vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          key: ${{ runner.os }}-gems-api-${{ hashFiles('_api/Gemfile.lock') }}
           restore-keys: |
-            ${{ runner.os }}-gems-
+            ${{ runner.os }}-gems-api-
 
       - name: Lackey Cache 💾
         uses: actions/cache@v1
         with:
           path: _lackey/vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          key: ${{ runner.os }}-gems-lackey-${{ hashFiles('_lackey/Gemfile.lock') }}
           restore-keys: |
-            ${{ runner.os }}-gems-
+            ${{ runner.os }}-gems-lackey-
 
       - name: Make 🔧
         env:
