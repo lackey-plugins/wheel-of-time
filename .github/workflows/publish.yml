@@ -69,6 +69,8 @@ jobs:
             ${{ runner.os }}-gems-
 
       - name: Make 🔧
+        env:
+          BUNDLE_GITHUB__COM: x-access-token:${{ secrets.REPO_SCOPED_TOKEN }}
         run: |
           make api
 
@@ -105,6 +107,8 @@ jobs:
             ${{ runner.os }}-gems-
 
       - name: Make 🔧
+        env:
+          BUNDLE_GITHUB__COM: x-access-token:${{ secrets.REPO_SCOPED_TOKEN }}
         run: |
           make jekyll
 
