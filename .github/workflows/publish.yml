@@ -6,7 +6,7 @@ on:
 
 defaults: 
   run:
-    shell: bash
+    shell: bashg
 
 jobs:
   publish:
@@ -39,6 +39,8 @@ jobs:
             ${{ runner.os }}-gems-
 
       - name: Make 🔧
+        env:
+          BUNDLE_GITHUB__COM: x-access-token:${{ secrets.REPO_SCOPED_TOKEN }}
         run: |
           make all
 
