@@ -38,48 +38,48 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-lackey-
 
-      - name: Make 🔧
-        env:
-          BUNDLE_GITHUB__COM: x-access-token:${{ secrets.REPO_SCOPED_TOKEN }}
-        run: |
-          make all
+      # - name: Make 🔧
+      #   env:
+      #     BUNDLE_GITHUB__COM: x-access-token:${{ secrets.REPO_SCOPED_TOKEN }}
+      #   run: |
+      #     make all
 
-      - name: Deploy Images 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: images
-          TARGET_FOLDER: images
-          SINGLE_COMMIT: true
-          CLEAN: true
+      # - name: Deploy Images 🚀
+      #   uses: JamesIves/github-pages-deploy-action@releases/v3
+      #   with:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     BRANCH: gh-pages
+      #     FOLDER: images
+      #     TARGET_FOLDER: images
+      #     SINGLE_COMMIT: true
+      #     CLEAN: true
 
-      - name: Deploy Documents 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: documents
-          TARGET_FOLDER: documents
-          SINGLE_COMMIT: true
-          CLEAN: true
+      # - name: Deploy Documents 🚀
+      #   uses: JamesIves/github-pages-deploy-action@releases/v3
+      #   with:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     BRANCH: gh-pages
+      #     FOLDER: documents
+      #     TARGET_FOLDER: documents
+      #     SINGLE_COMMIT: true
+      #     CLEAN: true
 
-      - name: Deploy API 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: _api/_site
-          TARGET_FOLDER: api
-          SINGLE_COMMIT: true
-          CLEAN: true
+      # - name: Deploy API 🚀
+      #   uses: JamesIves/github-pages-deploy-action@releases/v3
+      #   with:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     BRANCH: gh-pages
+      #     FOLDER: _api/_site
+      #     TARGET_FOLDER: api
+      #     SINGLE_COMMIT: true
+      #     CLEAN: true
 
-      - name: Deploy Plugin 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: _lackey/_site
-          TARGET_FOLDER: lackey
-          SINGLE_COMMIT: true
-          CLEAN: true
+      # - name: Deploy Plugin 🚀
+      #   uses: JamesIves/github-pages-deploy-action@releases/v3
+      #   with:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     BRANCH: gh-pages
+      #     FOLDER: _lackey/_site
+      #     TARGET_FOLDER: lackey
+      #     SINGLE_COMMIT: true
+      #     CLEAN: true
