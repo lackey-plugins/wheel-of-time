@@ -22,3 +22,5 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
 end
+
+gem "json_logic", "~> 0.4.6"

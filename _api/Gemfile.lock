@@ -1,6 +1,6 @@
 GIT
-  remote: git@github.com:lackey-plugins/pagemaster.git
-  revision: 3214c7362bc590743f0adfd7435a3ab1793331b6
+  remote: https://github.com/lackey-plugins/pagemaster.git
+  revision: 12872c8f4e28a36aba3ca7ab50efbaf45a1133c8
   branch: master
   specs:
     pagemaster (2.1.2)
@@ -43,6 +43,7 @@ GEM
       sassc (> 2.0.1, < 3.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    json_logic (0.4.6)
     kramdown (2.2.1)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -78,6 +79,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.0.0)
+  json_logic (~> 0.4.6)
   pagemaster!
   tzinfo (~> 1.2)
   tzinfo-data

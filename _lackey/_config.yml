@@ -6,6 +6,60 @@ baseurl: "/lackey"
 url: "https://lackey-plugins.github.io/wheel-of-time"
 github_username:  lackey-plugins
 
+collections:
+
+  sets:
+    output: false
+    sources:
+      - sets.tsv
+    related:
+      - from_field: id
+        to_field: set
+        collection: cards
+    id_key: id
+    image_key: id
+    layouts: [lackey_csv]
+    index: true
+    image_base: https://lackey-plugins.github.io/wheel-of-time/images
+
+  cards:
+    output: false
+    sources:
+      - cards/premier.tsv
+      - cards/dark_prophecies.tsv
+      - cards/children_of_the_dragon.tsv
+      - cards/cycles.tsv
+      - cards/promo.tsv
+    related:
+      - from_field: set
+        to_field: id
+        collection: sets
+    id_key: id
+    image_key: id
+    layouts: []
+    index: true
+    image_base: https://lackey-plugins.github.io/wheel-of-time/images
+
+  decks:
+    output: true
+    sources:
+      - decks.tsv
+    related:
+      - jsonlogic_array:
+          column: main
+        extra:
+          meta:
+            zone: main
+            count: quantity
+        from_field: id
+        to_field: id
+        collection: cards
+    id_key: id
+    image_key: id
+    layouts: [lackey_dek, deck]
+    index: true
+    image_base: https://lackey-plugins.github.io/wheel-of-time/images
+
 exclude: [Makefile, _scripts]
 include: [plugininfo.txt]
 keep_files: [sets, decks, _site]

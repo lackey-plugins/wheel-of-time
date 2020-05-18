@@ -1,13 +1,14 @@
 title: Wheel of Time
 email: benthicmaw+lackey@gmail.com
 description:
-baseurl: "/api"
-url: "https://lackey-plugins.github.io/wheel-of-time"
+baseurl: /api
+url: https://lackey-plugins.github.io/wheel-of-time
 github_username:  lackey-plugins
 
 data_dir: ../data
 
 collections:
+
   sets:
     output: true
     sources:
@@ -17,9 +18,11 @@ collections:
         to_field: set
         collection: cards
     id_key: id
-    layout: jsonapi
+    image_key: id
+    layouts: [jsonapi]
     index: true
-    # image_base: https://images.ccgsimulator.com/wheel-of-time
+    image_base: https://lackey-plugins.github.io/wheel-of-time/images
+
   cards:
     output: true
     sources:
@@ -33,39 +36,30 @@ collections:
         to_field: id
         collection: sets
     id_key: id
-    layout: jsonapi
+    image_key: id
+    layouts: [jsonapi]
     index: true
-    # image_base: https://images.ccgsimulator.com/wheel-of-time
-  # decks:
-  #   output: true
-  #   sources: [ decks.csv ]
-  #   related:
-  #     - parse_column:
-  #         multiline: true
-  #         column: main
-  #         regex: ^(?<main.count>[0-9]+)\\t(?<main.name>.*)$
-  #       extra:
-  #         meta:
-  #           zone: main
-  #           count: main.count
-  #       from_field: main.name
-  #       to_field: name
-  #       collection: cards
-  #     - parse_column:
-  #         multiline: true
-  #         column: starting
-  #         regex: ^(?<starting.count>[0-9]+)\\t(?<starting.name>.*)$
-  #       extra:
-  #         meta:
-  #           zone: starting
-  #           count: starting.count
-  #       from_field: starting.name
-  #       to_field: name
-  #       collection: cards
-  #   id_key: _id
-  #   layout: jsonapi
-  #   index: true
-  #   image_base: https://images.ccgsimulator.com/harry_potter
+    image_base: https://lackey-plugins.github.io/wheel-of-time/images
+
+  decks:
+    output: true
+    sources:
+      - decks.tsv
+    related:
+      - jsonlogic_array:
+          column: main
+        extra:
+          meta:
+            zone: main
+            count: quantity
+        from_field: id
+        to_field: id
+        collection: cards
+    id_key: id
+    image_key: id
+    layouts: [jsonapi]
+    index: true
+    image_base: https://lackey-plugins.github.io/wheel-of-time/images
 
 exclude: [README.MD", "data", "documents", "images", "_lackey"]
 include: ["_index"]

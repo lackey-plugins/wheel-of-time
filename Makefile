@@ -6,7 +6,7 @@ api:
 	bundle config path vendor/bundle
 	bundle install --jobs 4 --retry 3
 
-	bundle exec jekyll pagemaster cards sets --trace
+	bundle exec jekyll pagemaster cards sets decks --trace
 	bundle exec jekyll build --trace
 
 .ONESHELL:
