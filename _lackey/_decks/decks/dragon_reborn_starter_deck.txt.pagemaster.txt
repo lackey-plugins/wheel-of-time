@@ -1,0 +1,270 @@
+---
+links:
+  self: https://lackey-plugins.github.io/wheel-of-time/lackey/decks/dragon_reborn_starter_deck.txt
+meta:
+  version: '6599109'
+data:
+  type: decks
+  id: dragon_reborn_starter_deck
+  attributes:
+    name: Dragon Reborn Starter Deck
+    format: standard
+    main: '[{"quantity":2,"criteria":[{"==":[{"var":"id"},"a_second_chance"]}]},{"quantity":3,"criteria":[{"==":[{"var":"id"},"andor_cavalry"]}]},{"quantity":3,"criteria":[{"==":[{"var":"id"},"andor_infantry"]}]},{"quantity":2,"criteria":[{"==":[{"var":"id"},"bodyguards"]}]},{"quantity":2,"criteria":[{"==":[{"var":"id"},"commander"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"confrontation"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"debt_of_honor"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"decisive_tactics"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"dense_forest"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"egwene_al_vere"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"elayne_trakand"]}]},{"quantity":2,"criteria":[{"==":[{"var":"id"},"fireball"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"gaining_an_advantage"]}]},{"quantity":2,"criteria":[{"==":[{"var":"id"},"gather_allies"]}]},{"quantity":2,"criteria":[{"==":[{"var":"id"},"healing"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"heroic_efforts"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"lady_aemlyn"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"lady_arathelle"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"lady_ellorien"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"lan_mandragoran"]}]},{"quantity":2,"criteria":[{"==":[{"var":"id"},"light_cavalry"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"lord_pelivar"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"mat_cauthon_i"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"moiraine_sedai"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"perrin_aybara_i"]}]},{"quantity":2,"criteria":[{"==":[{"var":"id"},"personal_growth"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"plots"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"rand_al_thor_i"]}]},{"quantity":2,"criteria":[{"==":[{"var":"id"},"seasoned_warrior"]}]},{"quantity":2,"criteria":[{"==":[{"var":"id"},"similar_ideals"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"spying"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"stymied"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"testing_fate"]}]},{"quantity":1,"criteria":[{"==":[{"var":"id"},"the_tide_of_battle"]}]},{"quantity":2,"criteria":[{"==":[{"var":"id"},"unexpected_ally"]}]}]'
+  relationships:
+    images:
+      links:
+        related:
+        - meta:
+            type: front
+          href: https://lackey-plugins.github.io/wheel-of-time/images/decks/dragon_reborn_starter_deck.jpg
+    cards:
+      links:
+        related:
+        - href: 
+          meta:
+            zone: main
+            count: 2
+            id: a_second_chance
+            name: A Second Chance
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 3
+            id: andor_cavalry
+            name: Andor Cavalry
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 3
+            id: andor_infantry
+            name: Andor Infantry
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 2
+            id: bodyguards
+            name: Bodyguards
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 2
+            id: commander
+            name: Commander
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: confrontation
+            name: Confrontation
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: debt_of_honor
+            name: Debt of Honor
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: decisive_tactics
+            name: Decisive Tactics
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: dense_forest
+            name: Dense Forest
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: egwene_al_vere
+            name: Egwene al'Vere
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: elayne_trakand
+            name: Elayne Trakand
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 2
+            id: fireball
+            name: Fireball
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: gaining_an_advantage
+            name: Gaining An Advantage
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 2
+            id: gather_allies
+            name: Gather Allies
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 2
+            id: healing
+            name: Healing
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: heroic_efforts
+            name: Heroic Efforts
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: lady_aemlyn
+            name: Lady Aemlyn
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: lady_arathelle
+            name: Lady Arathelle
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: lady_ellorien
+            name: Lady Ellorien
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: lan_mandragoran
+            name: Lan Mandragoran
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 2
+            id: light_cavalry
+            name: Light Cavalry
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: lord_pelivar
+            name: Lord Pelivar
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: mat_cauthon_i
+            name: Mat Cauthon (I)
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: moiraine_sedai
+            name: Moiraine Sedai
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: perrin_aybara_i
+            name: Perrin Aybara (I)
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 2
+            id: personal_growth
+            name: Personal Growth
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: plots
+            name: Plots
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: rand_al_thor_i
+            name: Rand al'Thor (I)
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 2
+            id: seasoned_warrior
+            name: Seasoned Warrior
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 2
+            id: similar_ideals
+            name: Similar Ideals
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: spying
+            name: Spying
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: stymied
+            name: Stymied
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: testing_fate
+            name: Testing Fate
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 1
+            id: the_tide_of_battle
+            name: The Tide of Battle
+            set: premier
+        - href: 
+          meta:
+            zone: main
+            count: 2
+            id: unexpected_ally
+            name: Unexpected Ally
+            set: premier
+layout: deck
+permalink: decks/dragon_reborn_starter_deck.txt
+---

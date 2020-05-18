@@ -2,7 +2,7 @@
 links:
   self: https://lackey-plugins.github.io/wheel-of-time/api/decks/dragon_reborn_starter_deck.json
 meta:
-  version: c31376e
+  version: '6599109'
 data:
   type: decks
   id: dragon_reborn_starter_deck
@@ -160,6 +160,6 @@ data:
           meta:
             zone: main
             count: 2
-permalink: decks/dragon_reborn_starter_deck
 layout: jsonapi
+permalink: decks/dragon_reborn_starter_deck.json
 ---

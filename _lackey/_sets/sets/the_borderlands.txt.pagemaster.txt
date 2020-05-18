@@ -1,0 +1,23 @@
+---
+links:
+  self: https://lackey-plugins.github.io/wheel-of-time/lackey/sets/the_borderlands.txt
+meta:
+  version: '6599109'
+data:
+  type: sets
+  id: the_borderlands
+  attributes:
+    name: The Borderlands
+  relationships:
+    images:
+      links:
+        related:
+        - meta:
+            type: front
+          href: https://lackey-plugins.github.io/wheel-of-time/images/sets/the_borderlands.jpg
+    cards:
+      links:
+        related: []
+layout: lackey_csv
+permalink: sets/the_borderlands.txt
+---

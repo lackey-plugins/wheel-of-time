@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/lackey-plugins/pagemaster.git
-  revision: 12872c8f4e28a36aba3ca7ab50efbaf45a1133c8
+  revision: eab479f32d697490dc7a52efe2ed2aa6bd3523a6
   branch: master
   specs:
     pagemaster (2.1.2)

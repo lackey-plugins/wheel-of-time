@@ -10,22 +10,21 @@ api:
 	bundle exec jekyll build --trace
 
 .ONESHELL:
-jekyll:
+lackey:
 	cd _lackey
 
 	gem install bundler
 	bundle config path vendor/bundle
 	bundle install --jobs 4 --retry 3
 
+	bundle exec jekyll pagemaster cards sets decks --trace
+	bundle exec jekyll build --trace
+	
 	# sets
 	mkdir -p sets
 	for f in ../data/cards/*.tsv; do \
 		bundle exec ruby _scripts/convert_tsv.rb $$f "sets/$$(basename $$f .tsv).txt"; \
 	done
-
-	# decks
-	mkdir -p decks
-	cp ../data/decks/* decks
 
 	# formats
 	mkdir -p _data
@@ -44,7 +43,7 @@ jekyll:
 	# second build
 	bundle exec jekyll build
 
-all: api jekyll
+all: api lackey
 
 .ONESHELL:
 clean_api:
@@ -54,7 +53,7 @@ clean_api:
 .ONESHELL:
 clean_lackey:
 	cd _lackey
-	rm -rf _data _site sets decks _tmp/formats _tmp/decks _tmp/packs _tmp/sets _tmp/formats.txt _tmp/updatelist.txt
+	rm -rf _data _sets _decks _site sets _tmp/formats _tmp/packs _tmp/sets _tmp/formats.txt _tmp/updatelist.txt
 	rm -rf .jekyll-cache updatelist.txt.md ./_index.pagemaster.json
 
 clean: clean_api clean_lackey

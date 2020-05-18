@@ -1,15 +1,16 @@
 title: Wheel of Time
 name: wheel-of-time
 email: benthicmaw+lackey@gmail.com
-description:
 baseurl: "/lackey"
 url: "https://lackey-plugins.github.io/wheel-of-time"
 github_username:  lackey-plugins
 
+data_dir: ../data
+
 collections:
 
   sets:
-    output: false
+    output: true
     sources:
       - sets.tsv
     related:
@@ -51,6 +52,9 @@ collections:
           meta:
             zone: main
             count: quantity
+            id: id
+            name: name
+            set: set
         from_field: id
         to_field: id
         collection: cards

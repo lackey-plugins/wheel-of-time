@@ -1,0 +1,8 @@
+<deck version="0.8">
+	<meta>
+		<game>{{ site.name }}</game>
+	</meta>{% assign all_zones = page.data.relationships.cards.links.related | map: "meta" | map: "zone" | uniq %}{% for zone in all_zones %}
+	<superzone name="{{ zone }}">{% for link in page.data.relationships.cards.links.related %}{% if link.meta.zone == zone %}{% assign count = link.meta.count %}{% for i in (1..count) %}
+		<card><name id="{{ link.meta.id }}">{{ link.meta.name }}</name><set>{{ link.meta.set }}</set></card>{% endfor %}{% endif %}{% endfor %}
+	</superzone>{% endfor %}
+</deck>
