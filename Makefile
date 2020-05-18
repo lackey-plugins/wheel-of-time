@@ -19,7 +19,7 @@ lackey:
 
 	bundle exec jekyll pagemaster cards sets decks --trace
 	bundle exec jekyll build --trace
-	
+
 	# sets
 	mkdir -p sets
 	for f in ../data/cards/*.tsv; do \
@@ -53,7 +53,7 @@ clean_api:
 .ONESHELL:
 clean_lackey:
 	cd _lackey
-	rm -rf _data _sets _decks _site sets _tmp/formats _tmp/packs _tmp/sets _tmp/formats.txt _tmp/updatelist.txt
-	rm -rf .jekyll-cache updatelist.txt.md ./_index.pagemaster.json
+	rm -rf _data _cards _sets _decks _site sets _tmp/formats _tmp/packs _tmp/sets _tmp/decks _tmp/formats.txt _tmp/updatelist.txt
+	rm -rf .jekyll-cache updatelist.txt.md 
 
 clean: clean_api clean_lackey

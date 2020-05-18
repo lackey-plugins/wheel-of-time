@@ -8,4 +8,6 @@ _index.pagemaster.json
 _api/_cards
 _api/_sets
 
-_lackey/decks
+_lackey/_cards
+_lackey/_sets
+_lackey/_decks

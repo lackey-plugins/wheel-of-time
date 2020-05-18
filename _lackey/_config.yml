@@ -20,7 +20,6 @@ collections:
     id_key: id
     image_key: id
     layouts: [lackey_csv]
-    index: true
     image_base: https://lackey-plugins.github.io/wheel-of-time/images
 
   cards:
@@ -38,7 +37,6 @@ collections:
     id_key: id
     image_key: id
     layouts: []
-    index: true
     image_base: https://lackey-plugins.github.io/wheel-of-time/images
 
   decks:
@@ -61,7 +59,6 @@ collections:
     id_key: id
     image_key: id
     layouts: [lackey_dek, deck]
-    index: true
     image_base: https://lackey-plugins.github.io/wheel-of-time/images
 
 exclude: [Makefile, _scripts]
