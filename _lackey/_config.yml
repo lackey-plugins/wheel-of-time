@@ -5,14 +5,14 @@ baseurl: "/lackey"
 url: "https://lackey-plugins.github.io/wheel-of-time"
 github_username:  lackey-plugins
 
-data_dir: ../data
+data_dir: _data
 
 collections:
 
   sets:
     output: true
     sources:
-      - sets.tsv
+      - ../../data/sets.tsv
     related:
       - from_field: id
         to_field: set
@@ -25,11 +25,11 @@ collections:
   cards:
     output: false
     sources:
-      - cards/premier.tsv
-      - cards/dark_prophecies.tsv
-      - cards/children_of_the_dragon.tsv
-      - cards/cycles.tsv
-      - cards/promo.tsv
+      - ../../data/cards/premier.tsv
+      - ../../data/cards/dark_prophecies.tsv
+      - ../../data/cards/children_of_the_dragon.tsv
+      - ../../data/cards/cycles.tsv
+      - ../../data/cards/promo.tsv
     related:
       - from_field: set
         to_field: id
@@ -42,7 +42,7 @@ collections:
   decks:
     output: true
     sources:
-      - decks.tsv
+      - ../../data/decks.tsv
     related:
       - jsonlogic_array:
           column: main

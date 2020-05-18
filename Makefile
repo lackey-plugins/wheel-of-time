@@ -17,24 +17,18 @@ lackey:
 	bundle config path vendor/bundle
 	bundle install --jobs 4 --retry 3
 
-	bundle exec jekyll pagemaster cards sets decks --trace
-	bundle exec jekyll build --trace
+	mkdir -p _data
+	cp -r ../data/formats.tsv _data
+	cp -r ../data/packs.tsv _data
 
-	# sets
 	mkdir -p sets
 	for f in ../data/cards/*.tsv; do \
 		bundle exec ruby _scripts/convert_tsv.rb $$f "sets/$$(basename $$f .tsv).txt"; \
 	done
 
-	# formats
-	mkdir -p _data
-	cp ../data/formats.tsv _data
-
-	# packdefinitions
-	tr \" \' < ../data/packs.tsv > _data/packs.tsv # Hack because Jekyll doesn't like quotes in TSVs
-
 	# first build
-	bundle exec jekyll build
+	bundle exec jekyll pagemaster cards sets decks --trace
+	bundle exec jekyll build --trace
 	cp -r _site/* _tmp/
 	
 	# updatelist
