@@ -110,7 +110,7 @@ jobs:
         env:
           BUNDLE_GITHUB__COM: x-access-token:${{ secrets.REPO_SCOPED_TOKEN }}
         run: |
-          make jekyll
+          make lackey
 
       - name: Deploy Plugin 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
